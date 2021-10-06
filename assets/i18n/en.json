@@ -1,0 +1,313 @@
+{
+    "ACCOUNTS": {
+        "CARDS": "Cards",
+        "DEPOSITS": "Deposits",
+        "REGULARS": "Accounts",
+        "TITLE": "My accounts",
+        "NEW_CARD": {
+            "SUBTITLE": "We will deliver it ourselves",
+            "TITLE": "Open Jusan Business Card"
+        }
+    },
+    "AUTH": {
+        "LOGIN": "Login",
+        "LOGIN_SUBTITLE": "The bank, which is always with you.",
+        "LOGIN_TITLE": "Login to Jusan Business",
+        "REGISTER": "Register",
+        "REGISTER_SUBTITLE": "Open a new Jusan Business in 5 minutes",
+        "RESTORE": "Restore",
+        "ALREADY_OPENED": {
+            "DESCRIPTION": "According to IIN <strong> {{iin}} </strong>, an account has already been opened in our bank. <br> Login into banking or call us at <a href=\\\"tel: {{tel}} </a>. The call is free.",
+            "TITLE": "Account already opened"
+        },
+        "CAN_REGISTER": {
+            "DESCRIPTION": "There is no account on the specified IIN yet, but you can create one. Continue?",
+            "TITLE": "You are not registered yet"
+        },
+        "CAN_RESTORE": {
+            "DESCRIPTION": "Sign in to work at Jusan Business",
+            "TITLE": "You are already registered"
+        },
+        "CODE": {
+            "EXPIRED": "Old code is outdated, request new code that we will send",
+            "FORBIDDEN": "Exceeded the number of attempts.",
+            "REQUEST_NEW": "Request a new code",
+            "SEND_AGAIN": "Request code again",
+            "SEND_NEW": "Get new code",
+            "TIMER": "after <strong> {{timerValue}} </strong> sec",
+            "TRY_AGAIN": "Try again",
+            "UNKNOWN": "Failed to send a code"
+        },
+        "CONTACT": {
+            "DESCRIPTION": "If you have not received the code, you must contact the bank by phone or go to the bank branch",
+            "LINK": "Contact Jusan",
+            "TITLE": "Didn't receive the code?"
+        },
+        "EMAIL": {
+            "CONFIRM": "Email confirmation",
+            "DESCRIPTION": "Please enter the code that we sent to your email address",
+            "DESTINATION": "to email address",
+            "NO_CODE_RECEIVED": "Didn't receive the code?",
+            "TITLE": "Confirm email"
+        },
+        "EXPIRED": {
+            "DESCRIPTION": "You were gone for a long time, for security reasons we ended the session.",
+            "TITLE": "Session expired"
+        },
+        "INVALID_PHONE": {
+            "DESCRIPTION": "Phone number is incorrect, please try again",
+            "TITLE": "Invalid phone number"
+        },
+        "NO_ACCOUNT": {
+            "DESCRIPTION": "To access Jusan Business, you need to open an account in a bank or call us at <a href=\\\"tel: {{{tel} }\\\"> {{tel}} </a>. The call is free.",
+            "TITLE": "We didn't find you"
+        },
+        "NO_EMAIL": {
+            "DESCRIPTION": "Thank you for being with us! <br> To access the Jusan Business, you need to leave additional data at the bank.",
+            "LINK": "Contact Jusan",
+            "TITLE": "How do I get access?"
+        },
+        "NO_IIN": {
+            "DESCRIPTION": "No IE was found by IIN <strong> {{iin}} </strong>. <br> Please try again later or call us at <a href=\\\"tel: {{{tel}} </a>. The call is free.",
+            "LINK": "Contact Jusan",
+            "TITLE": "We did not find IE"
+        },
+        "PASSWORD": {
+            "CONFIRM": "Repeat password",
+            "DESCRIPTION": "One password to log into Jusan Business through the app and browser",
+            "NEW": "Create a password",
+            "TITLE": "Password setting",
+            "REQUIREMENTS": {
+                "CAPITAL": "capital and lowercase Latin letters",
+                "LENGTH": "from 8 to 255 characters",
+                "NUMBER": "numbers",
+                "SYMBOL": "symbols .! @ # $% ^ & *"
+            }
+        },
+        "PHONE": {
+            "DESCRIPTION": "Enter the phone number you provided when opening an account"
+        },
+        "RESULT": {
+            "DESCRIPTION": "Download the Jusan Business mobile app for quick access to accounts and transactions.",
+            "REGISTERED": "You are registered.",
+            "RESTORED": "A new password has been set."
+        }
+    },
+    "DIRECTORY": {
+        "TITLE": "Directory"
+    },
+    "ERRORS": {
+        "ACCOUNT_BLOCKED": "Your account has been blocked. Contact the bank.",
+        "ENTER_PASSWORD": "Enter your password",
+        "IIN_DATE": "Check the correctness of the entered IIN",
+        "IIN_LENGTH": "Enter 12 digits",
+        "NOT_ENOUGH_SYMBOLS": "Not enough characters",
+        "NOT_IMPLEMENTED": "Not implemented",
+        "PASSWORDS_NOT_EQUAL": "Passwords don't match",
+        "WRONG_CREDENTIALS": "Wrong number or password",
+        "INVALID_CODE": {
+            "FEW": "You entered an incorrect code. You have {{triesLeft}} attempts remaining",
+            "ONE": "You entered an incorrect code. You have {{triesLeft}} attempt remaining",
+            "OTHER": "You entered an incorrect code. You have {{triesLeft}} attempts remaining"
+        }
+    },
+    "FOOTER": {
+        "COPYRIGHT": "JSC «First Heartland Jusan Bank»",
+        "YEARS": "© 1992-2021"
+    },
+    "HISTORY": {
+        "ALL": "All",
+        "BACK_TO_HISTORY": "Back to history",
+        "CONVERSION": "Conversion",
+        "CURRENCY_PAYMENTS": "Currency payments",
+        "SELECT_ALL": "Select all",
+        "SELECT_SIGNABLE": "Your sign",
+        "SIGNED": "Signed",
+        "TENGE_PAYMENTS": "Tenge payments",
+        "TITLE": "Operations History",
+        "DELETE": {
+            "PARTIAL": "Deleted partially",
+            "FAILED": {
+                "FEW": "<strong> {{transactionsCount}} payments </strong> could not be deleted",
+                "ONE": "<strong> {{transactionsCount}} payment </strong> could not be deleted",
+                "OTHER": "<strong> {{transactionsCount}} payments </strong> could not be deleted",
+                "TITLE": "Error"
+            },
+            "SUCCESS": {
+                "FEW": "<strong> {{transactionsCount}} payments </strong> successfully deleted",
+                "ONE": "<strong> {{transactionsCount}} payment </strong> successfully deleted",
+                "OTHER": "<strong> {{transactionsCount}} payments </strong> successfully deleted",
+                "TITLE": "Deleted"
+            }
+        },
+        "FAILED": {
+            "DESCRIPTION": "Failed to sign payments due to an unexpected error. Try again.",
+            "TITLE": "Failed"
+        },
+        "OPERATION": {
+            "FEW": "Operations",
+            "ONE": "Operation",
+            "OTHER": "Operations"
+        },
+        "PARTIAL": {
+            "SUBTITLE": "Payments with errors",
+            "TITLE": "Signed partially",
+            "FAILED": {
+                "FEW": "<strong> {{transactionsCount}} payments </strong> failed to sign",
+                "ONE": "<strong> {{transactionsCount}} payment </strong> failed to sign",
+                "OTHER": "<strong> {{transactionsCount}} payments </strong> failed to sign"
+            },
+            "SUCCESS": {
+                "FEW": "<strong> {{transactionsCount}} payments </strong> signed successfully",
+                "ONE": "<strong> {{transactionsCount}} payment </strong> signed successfully",
+                "OTHER": "<strong> {{transactionsCount}} payments </strong> signed successfully"
+            }
+        },
+        "STATUS": {
+            "COMPLETED": "Completed",
+            "CREATED": "Created",
+            "DRAFT": "Draft",
+            "FOR_SIGN": "Your sign",
+            "REJECTED": "Rejected",
+            "SIGNING": "Signing",
+            "SIGNING_SUFFIX": "Signing from",
+            "WORKING": "In progress",
+            "WORKING_SUFFIX": "In progress from"
+        }
+    },
+    "HOME": {
+        "TITLE": "Home"
+    },
+    "IMPORT": {
+        "FILE": "in file {{fileName}}",
+        "TITLE": "Import",
+        "TO_DRAFTS": "Navigate to drafts",
+        "TO_SIGNED": "Navigate to operations for sign",
+        "DRAFTED": {
+            "FEW": "<strong> {{operationsCount}} payments </strong> loaded with errors and placed in Drafts.",
+            "ONE": "<strong> {{operationsCount}} payment </strong> loaded with errors and placed in Drafts.",
+            "OTHER": "<strong> {{operationsCount}} payments </strong> loaded with errors and placed in Drafts.",
+            "SUBTITLE": "Payments with errors",
+            "TITLE": "Partially imported"
+        },
+        "ERRORS": {
+            "AMOUNT_EMPTY": "\"Payment amount\" field is empty or missing",
+            "CURRENCY_EMPTY": "\"Payment currency\" field is empty or missing",
+            "DESCRIPTION_EMPTY": "\"Payment Purpose\" field is empty or missing",
+            "DOCUMENT_NUMBER_EMPTY": "\"Document number\" field is empty or missing",
+            "IDN_EMPTY": "\"IIN/BIN\" field is empty or missing",
+            "IDN_INVALID_FORMAT": "\"IIN/BIN\" field is incorrect",
+            "KNP_EMPTY": "\"KNP\" field is empty or missing",
+            "PAYER_ACCOUNT_EMPTY": "\"Payer account\" field is empty or missing",
+            "PAYER_ACCOUNT_INVALID_FORMAT": "\"Payer account\" field is incorrect",
+            "RECIPIENT_ACCOUNT_EMPTY": "\"Recipient amount\" field is empty or missing",
+            "RECIPIENT_ACCOUNT_INVALID_FORMAT": "\"Recipient amount\" field is incorrect",
+            "RECIPIENT_BIC_EMPTY": "\"Recipient BIK\" field is empty or missing",
+            "RECIPIENT_KBE_EMPTY": "\"Recipient KBE\" field is empty or missing",
+            "RECIPIENT_NAME_EMPTY": "\"Recipient name\" field is empty or missing"
+        },
+        "FAILED": {
+            "ONE": "Failed to import file, it may be damaged. Download from 1C once more and try again.",
+            "OTHER": "Failed to import files, they may be damaged. Download from 1C once more and try again.",
+            "TITLE": "Failed"
+        },
+        "INVALID": {
+            "FEW": "<strong> {{filesCount}} files </strong> could not be imported, possibly damaged.",
+            "ONE": "<strong> {{filesCount}} file </strong> could not be imported, possibly damaged.",
+            "OTHER": "<strong> {{filesCount}} files </strong> could not be imported, possibly damaged."
+        },
+        "SUCCESS": {
+            "FEW": "<strong> {{operationsCount}} payments </strong> successfully imported and sent for signature",
+            "ONE": "<strong> {{operationsCount}} payment </strong> successfully imported and sent for signature",
+            "OTHER": "<strong> {{operationsCount}} payments </strong> successfully imported and sent for signature",
+            "TITLE": "Imported"
+        }
+    },
+    "PAYMENTS": {
+        "NEW_PAYMENT": "Новый платеж",
+        "EDIT_PAYMENT": "Редактирование платежа",
+        "EDIT_PAYMENT_DRAFT": "Редактирование черновика",
+        "CANSELECTPAYFORPERIOD": "You can provide payment period",
+        "FORPERIOD": "Pay for period",
+        "PAYFORPERIOD": "Payment will be acquired for period",
+        "SAVE_TO_DRAFTS": "To drafts",
+        "COMMON_PERIOD": "Общий период",
+        "COMMON_PERIOD_EMPLOYEES": "Для всех сотрудников будет общий период"
+    },
+    "SETTINGS": {
+        "MAIN": "Main",
+        "TITLE": "Settings",
+        "AUTHORITIES": {
+            "ACCOUNTANT": "Accountant",
+            "END_DATE": "End date",
+            "FIRST_SIGN": "1st sign",
+            "HEAD": "Head",
+            "MAIN_ACCOUNTANT": "Main Accountant",
+            "NO_SIGN": "No sign",
+            "ROLE": "Job title",
+            "SECOND_SIGN": "2nd sign",
+            "START_DATE": "Start date",
+            "TITLE": "Authorized persons"
+        },
+        "COMPANY": {
+            "ADDRESS": "Legal address",
+            "IIN": "IIN/BIN",
+            "KBE": "Kbe",
+            "NAME": "Name",
+            "REGISTER_DATE": "Register date",
+            "SECTOR": "Economic sector ",
+            "TITLE": "About company",
+            "UGD": "UGD"
+        },
+        "CONTACTS": {
+            "CALL_CENTER": "Call-center",
+            "EMAIL": "Email",
+            "MANAGER": "Personal manager",
+            "PHONE": "Phone",
+            "TITLE": "Contacts"
+        }
+    },
+    "SHARED": {
+        "AMOUNT": "Amount",
+        "APPLY": "Apply",
+        "BACK_TO_HOME": "Back to home",
+        "CANCEL": "Cancel",
+        "CLOSE": "Close",
+        "CONTINUE": "Continue",
+        "CREATE": "Create",
+        "DONE": "Done",
+        "EMAIL": "Email address",
+        "FORGOT_PASSWORD": "Forgot password?",
+        "IIN": "IIN",
+        "NOT_SELECTED": "Not selected",
+        "OK": "Ok",
+        "PASSWORD": "Password",
+        "PHONE": "Phone number",
+        "SAVE": "Save",
+        "TO_SIGN": "TO_SIGN",
+        "SIGNED": "SIGNED",
+        "FOR_SIGN": "FOR_SIGN",
+        "TRY_AGAIN": "Try again",
+        "USER_NOT_FOUND": "We didn't find you",
+        "PREPOSITION": {
+            "FROM": "from",
+            "TO": "to"
+        },
+        "SMS": {
+            "DESCRIPTION": "Enter the code from the SMS sent to the number",
+            "DESTINATION": "to the number",
+            "NEW_CODE": "You can get a new code in <strong> {{timerValue}} </strong> seconds.",
+            "TITLE": "SMS confirmation"
+        },
+        "TIME": {
+            "MONTH": "Month ",
+            "PERIOD": "Period "
+        }
+    },
+    "STATEMENT": {
+        "TRANSACTION": {
+            "SIGN_FAILED": "Failed to sign payment",
+            "SIGN_SUCCESS": "Payment successfully signed"
+        }
+    }
+}

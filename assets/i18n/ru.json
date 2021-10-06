@@ -1,0 +1,1933 @@
+{
+    "MOBILE": {
+        "CONTENT": "Cкачайте приложение",
+        "DOWNLOAD": "Скачать"
+    },
+    "ACCOUNTS": {
+        "MIGRATED": "Счета АТФ в настоящее время неактивные, <br/>будут доступны для использования <br/>с {{date}} (со дня объединения банков)",
+        "INACTIVE": "Неактивен",
+        "INACTIVE_WITH_DATE": "Неактивен до {{date}}",
+        "CARDS": "Карты",
+        "CARD": "Карта",
+        "PRIVATE_CARD": "Карта Jusan",
+        "ENTREPRENEUR_CARD": "Бизнес карта",
+        "CORPORATE_CARD": "Корпоративная карта",
+        "REGULAR": "Cчет",
+        "LOADING": "Счета загружаются...",
+        "BLOCKED": "Заблокирован",
+        "STATE": {
+            "LOCK": "Заблокирован",
+            "NOLOCK": "Активен",
+            "LIMLOCK": "Сумма в аресте",
+            "PARTLOCK": "Есть блокировки"
+        },
+        "EMPTY": "У вас нет продуктов для выбора",
+        "EMPTY_MIGRATED": "Выписка из АТФ будет доступна <br/>в скором времени",
+        "EMPTY_STATEMENT": "У вас пока нет операций",
+        "EMPTY_STATE": "У вас нет активных счетов<br>Попробуйте обновить страницу",
+        "DEPOSITS": "Депозиты",
+        "DEPOSIT": "Депозит",
+        "REGULARS": "Счета",
+        "TITLE": "Мои счета",
+        "NEW_CARD": {
+            "SUBTITLE": "Мы доставим ее сами",
+            "TITLE": "Открой бизнес карту Jusan"
+        },
+        "STATEMENT": {
+            "TITLE": "Выписка",
+            "ALL_LOADED": "Загружены все транзакции за период"
+        },
+        "AUTO_EXPORT": "Автовыгрузка",
+        "REQUISITES": {
+            "TITLE": "Реквизиты",
+            "LIST_TITLE": "Новый счёт Jusan",
+            "LIST_OLD_TITLE": "Старый счёт АТФ",
+            "COMPANY": "Компания",
+            "ADDRESS": "Адрес",
+            "IIN": "ИИН/БИН",
+            "KBE": "Кбе",
+            "IBAN": "Счет",
+            "IBAN_ATF": "Счет ATF",
+            "BANK": "Банк",
+            "BIC": "БИК",
+            "COPY": "Копировать",
+            "COPIED": "Скопировано",
+            "DOWNLOAD": "Скачать",
+            "QR": {
+                "TITLE": "QR - код c реквизитом",
+                "SERVICE": "QR -  код за услуги",
+                "PRODUCT": "QR - код за товар",
+                "PRINT": "Распечатать"
+            }
+        },
+        "EXPORT": {
+            "DAILY": {
+                "TITLE": "Каждый день",
+                "DESCRIPTION": "Выгрузка приходит каждый день с 8 до 9 утра, если были движения средств по счету",
+                "SUBSCRIBED": "Ежедневная автовыгрузка успешно сохранена",
+                "UNSUBSCRIBED": "Ежедневная автовыгрузка успешно удалена"
+            },
+            "MONTHLY": {
+                "TITLE": "Каждый месяц",
+                "DESCRIPTION": "Выгрузка приходит первого числа каждого месяца, если были движения средств по счету",
+                "SUBSCRIBED": "Ежемесячная автовыгрузка успешно сохранена",
+                "UNSUBSCRIBED": "Ежемесячная автовыгрузка успешно удалена"
+            },
+            "FILE_FORMAT": "Формат файла",
+            "EMAIL": {
+                "TITLE": "Email адрес",
+                "DESCRIPTION": "Автовыгрузка будет отправляться на указанные email адреса",
+                "ADD": "+ Добавить email адрес"
+            }
+        },
+        "DROPDOWN": {
+            "REGULAR": "Текущий счет",
+            "CARD_PRIVATE": "Карта Jusan",
+            "CARD_COMMERCIAL": "Бизнес карта"
+        },
+        "SETTINGS": {
+            "TITLE": "Настройки",
+            "MAIN": "Основное",
+            "LIMIT_ACCESS": "Ограничить доступ к счету",
+            "LIMITS": "Ограничения",
+            "EDIT": "Изменить",
+            "LIMIT_ALL": "Ограничить всем",
+            "GRANTS_LOADING_ERROR": "Не удалось загрузить список сотрудников. Попробуйте обновить раздел.",
+            "NO_GRANTABLE_USERS": "У вас нет сотрудников, которым можно ограничить доступ. Ограничение доступа возможно только на сотрудников с правом второй подписи, либо без права подписи",
+            "LIMITED_ALL": "Доступ ограничен всем",
+            "GRANTED_ALL": "Доступ открыт всем",
+            "USER_LIMITED": "{{user}} ограничен в доступе",
+            "USER_GRANTED": "{{user}} получил доступ"
+        }
+    },
+    "AUTH": {
+        "LOGIN": "Войти в банкинг",
+        "LOGOUT": "Выход",
+        "LOGIN_TITLE": "Вход в Jusan Business",
+        "LOGIN_SUBTITLE": "Банк, который всегда с тобой.",
+        "LOGIN_SUBTITLE_ATF": "Также банкинг доступен клиентам АТФ Бизнес",
+        "REGISTER": "Зарегистрироваться",
+        "REGISTER_TITLE": "Регистрация",
+        "REGISTER_SUBTITLE": "Открой новый Jusan Business за 5 минут",
+        "REGISTER_SUBTITLE_ATF": "Единый банкинг для клиентов АТФ и Jysan",
+        "RESTORE": "Восстановление",
+        "ALREADY_OPENED": {
+            "DESCRIPTION": "По ИИН <strong>{{iin}}</strong> уже открыт счет в нашем банке. <br> Зайдите в банкинг или позвоните нам по номеру <a href=\"tel:{{tel}}\">{{tel}}</a>. Звонок бесплатный.",
+            "TITLE": "Счет уже открыт"
+        },
+        "CAN_REGISTER": {
+            "DESCRIPTION": "На указанном ИИН еще нет аккаунта, но вы можете создать его. Продолжить?",
+            "TITLE": "Вы еще не зарегистрированы"
+        },
+        "CAN_RESTORE": {
+            "DESCRIPTION": "Для работы в Jusan Business войдите в аккаунт",
+            "TITLE": "Вы уже зарегистрированы"
+        },
+        "CODE": {
+            "EXPIRED": "Старый код неактуален, запросите новый код, который мы отправим",
+            "FORBIDDEN": "Превышено количество попыток.",
+            "REQUEST_NEW": "Запросите новый код",
+            "SEND_AGAIN": "Запросить код повторно",
+            "SEND_NEW": "Получить новый код",
+            "TIMER": "через <strong>{{timerValue}}</strong> сек",
+            "TRY_AGAIN": "Попробуйте еще раз",
+            "UNKNOWN": "Не удалось отправить код"
+        },
+        "CONTACT": {
+            "DESCRIPTION": "Если Вы не получили код, необходимо связаться с банком по телефону или обратиться в отделение банка",
+            "LINK": "Связаться с Jusan",
+            "TITLE": "Не получили код?"
+        },
+        "EMAIL": {
+            "CONFIRM": "Email подтверждение",
+            "DESCRIPTION": "Пожалуйста введите код, который мы выслали на ваш email адрес",
+            "DESTINATION": "на email адрес",
+            "NO_CODE_RECEIVED": "Не получили код?",
+            "TITLE": "Подтвердить почту"
+        },
+        "EXPIRED": {
+            "DESCRIPTION": "Вас долго не было, в целях безопасности мы завершили сессию.",
+            "TITLE": "Сессия истекла"
+        },
+        "INVALID_PHONE": {
+            "DESCRIPTION": "Номер телефона указан неверно, попробуйте еще раз",
+            "TITLE": "Неверный номер телефона"
+        },
+        "NO_ACCOUNT": {
+            "DESCRIPTION": "Убедитесь, что вы вводите ваш личный ИИН (не БИН компании) или обратитесь в банк по номеру <a href=\"tel:{{tel}}\">{{tel}}</a>",
+            "TITLE": "ИИН не найден",
+            "LINK": "Изменить ИИН",
+            "CONTACTS": "Контакты банка"
+        },
+        "PHONE_NOT_MATCH": {
+            "DESCRIPTION": "Указанный номер телефона не принадлежит пользователю",
+            "TITLE": "Ошибка",
+            "LINK": "Изменить номер"
+        },
+        "USER_BLOCKED": {
+            "DESCRIPTION": "Для получения доступа в Jusan Business необходимо позвонить на по номеру <a href=\"tel:{{tel}}\">{{tel}}</a>. Звонок бесплатный.",
+            "TITLE": "Вы заблокированы"
+        },
+        "NO_EMAIL": {
+            "DESCRIPTION": "Спасибо что Вы с нами! <br> Для доступа в мобильный Jusan Business Вам необходимо оставить дополнительные данные в отделении банка.",
+            "LINK": "Контакты Jusan",
+            "TITLE": "Как получить доступ?"
+        },
+        "NO_IIN": {
+            "DESCRIPTION": "По ИИН <strong>{{iin}}</strong> ИП не найдено. <br> Попробуйте повторить попытку позднее или позвоните нам по номеру <a href=\"tel:{{tel}}\">{{tel}}</a>. Звонок бесплатный.",
+            "LINK": "Контакты Jusan",
+            "TITLE": "Мы не нашли ИП"
+        },
+        "PASSWORD": {
+            "CURRENT": "Введите текущий пароль",
+            "CONFIRM": "Повторите пароль",
+            "DESCRIPTION": "Единый пароль для входа в Jusan Business через приложение и браузер",
+            "NEW": "Придумайте пароль",
+            "TITLE": "Установка пароля",
+            "REQUIREMENTS": {
+                "CAPITAL": "большие и маленькие латинские буквы",
+                "LENGTH": "от 8 до 255 символов",
+                "NUMBER": "цифры",
+                "SYMBOL": "символы .!@#$%^&*"
+            }
+        },
+        "ERROR": {
+            "TITLE": "Ошибка сервера",
+            "DESCRIPTION_REGISTER": "По техническим причинам не удается продолжить регистрацию.",
+            "DESCRIPTION_RESTORE": "По техническим причинам не удается продолжить восстановление."
+        },
+        "PHONE": {
+            "DESCRIPTION": "Введите номер телефона, указанный при открытии счета"
+        },
+        "RESULT": {
+            "DESCRIPTION": "Скачайте мобильное приложение Jusan Business для быстрого  доступа к счетам и операциям.",
+            "REGISTERED": "Вы зарегистрированы.",
+            "RESTORED": "Установлен новый пароль."
+        }
+    },
+    "COUNTERPARTY": {
+        "ADD_ACCOUNT": "Добавить счет",
+        "ADD_COUNTERPARTY": "Добавить контрагента",
+        "CREATED_COUNTERPARTY": "Контрагент добавлен",
+        "DELETE_ACCOUNT": "Удалить счет",
+        "DELETE_COUNTERPARTIES": "Удалить выбранных контрагентов",
+        "DELETE_COUNTERPARTY": "Удалить контрагента",
+        "DELETED_COUNTERPARTY": "Контрагент удален",
+        "DELETED_COUNTERPARTIES": "Контрагенты удалены",
+        "EDIT_COUNTERPARTY": "Редактирование контрагента",
+        "UPDATED_COUNTERPARTY": "Контрагент изменен",
+        "NO_COUNTERPARTIES": "Нет контрагентов"
+    },
+    "DIRECTORY": {
+        "TITLE": "Справочник",
+        "COUNTERPARTIES": {
+            "TITLE": "Контрагенты"
+        },
+        "EMPLOYEES": {
+            "ADD_EMPLOYEE": "Добавить сотрудника",
+            "ACCOUNT_N": "№ счета",
+            "ACCOUNT_SALARY": "Счет (Заплатный проект)",
+            "BIRTH_DATE": "Дата рождения",
+            "DELETE_EMPLOYEE": "Удалить сотрудника",
+            "TITLE": "Сотрудники",
+            "IIN_BIRTH": "ИИН и дата рождения",
+            "IIN": "ИИН",
+            "FIO": "ФИО",
+            "SUM_SAL": "Сумма (ЗП)",
+            "SUM_PENS": "Сумма (Пенс.)",
+            "SUM_SOC": "Сумма (Соц.)",
+            "SUM_MEDICAL": "Сумма (ОСМС)",
+            "SUM_SALARY": "Сумма (Зарплатный проект)",
+            "SUM_PENSION": "Сумма (Пенсионный платеж)",
+            "SUM_SOCIAL": "Сумма (Социальный платеж)",
+            "EDIT": "Редактировать",
+            "DELETE": "Удалить сотрудника",
+            "EDIT_EMPLOYEE": "Редактировать сотрудника",
+            "DELETE_MULTY": "Удалить выбранных сотрудников",
+            "EMPLOYEE_DELETED": "Сотрудник удален",
+            "EMPLOYEES_DELETED": "Удалено сотрудников: {{num}}",
+            "EMPLOYEE_ADDED": "Сотрудник добавлен",
+            "EMPLOYEE_EDITED": "Сотрудник отредактирован",
+            "NOT_FOUND_CHANGE_PARAMS": "Сотрудник не найден, изменитe параметры поиска"
+        }
+    },
+    "ERRORS": {
+        "UNKNOWN_ERROR": "Произошла непредвиденная ошибка, попробуйте еще раз позже",
+        "API_UNAVAILABLE": "Cервис Jusan Business временно недоступен, попробуйте еще раз",
+        "NAME_MAX_LENGTH": "Максимум 250 символов.",
+        "INVALID_INPUT": "Введены неверные данные",
+        "ACCOUNT_BLOCKED": "Ваш аккаунт заблокирован. Обратитесь в банк.",
+        "ENTER_PASSWORD": "Введите пароль",
+        "EMPLOYEE_ALREADY_SELECTED": "Сотрудник уже выбран",
+        "IIN_DATE": "Проверьте корректность введенного ИИН",
+        "IIN_LENGTH": "Введите 12 цифр",
+        "IBAN_LENGTH": "Введите 20 символов",
+        "IBAN_BANK_MISMATCH": "Счет должен принадлежать банку получателя",
+        "IBAN_EQUAL": "Счет получателя не должен совпадать со счетом списания",
+        "BANKS_EQUAL": "Банк-посредник не должен совпадать с банком получателя",
+        "WRONG_BIC": "Неверный счет",
+        "WRONG_FORMAT": "Неверный формат",
+        "NOT_ENOUGH_AMOUNT": "Недостаточно средств",
+        "NOT_ENOUGH_SYMBOLS": "Недостаточно символов",
+        "NOT_IMPLEMENTED": "Not implemented",
+        "PASSWORDS_NOT_EQUAL": "Пароли не совпадают",
+        "PASSWORD_CAPS_OR_CYRILLIC": "Проверьте язык ввода и Caps Lock",
+        "IDENTICAL_PASSWORDS": "Новый пароль должен отличаться от старого",
+        "WRONG_CREDENTIALS": "Неверный номер или пароль",
+        "OTP_NOT_FOUND": "Вы не можете подписывать ОТП кодом",
+        "OTP_INVALID": "ОТП код введен неверно",
+        "MAX_LENGTH": "Превышено максимально допустимое количество символов. Сократите введенный текст.",
+        "MAX_SUM": "Максимальная сумма",
+        "DOWNLOAD_ERROR": "Не удалось скачать файл, попробуйте еще раз",
+        "INVALID_CODE": {
+            "FEW": "Вы ввели неправильный код. У вас осталось {{triesLeft}} попытки",
+            "ONE": "Вы ввели неправильный код. У вас осталась {{triesLeft}} попытка",
+            "OTHER": "Вы ввели неправильный код. У вас осталось {{triesLeft}} попыток"
+        },
+        "CURRENCY_PAYMENT": {
+            "RUB_BUDGET_DISABLED": "Платежи в бюджет РФ в данный момент недоступны",
+            "RUB_INVALID_NUMBERS": "Рублевый счет состоит только из цифр",
+            "RUB_INVALID_BUDGET": "Некорректный счет в бюджет России",
+            "RUB_INVALID_IBAN": "Некорректный счет в Россию",
+            "RUB_BUDGET_WRONG_BIC": "Некорректный БИК в бюджет России",
+            "RUB_LENGTH_MISMATCH": "Рублевый счет состоит из 20 символов",
+            "CURRENCY_MISMATCH": "Страна счета/IBAN не совпадает со страной выбранного банка",
+            "RUB_ONLY_VIA_BRANCH_ERROR": "В данную страну рублевые платежи можно отправить только через отделение",
+            "CNY_ONLY_TO_CHINA_ERROR": "Платеж в юань доступен только в Китай",
+            "KIO_LENGTH_MISMATCH": "Поле должно состоять из 5, 10 или 12 символов",
+            "MUST_INCLUDE_CONTRACT": "Свыше {{amount}} необходимо",
+            "MUST_INCLUDE_CONTRACT_LINK": "прикрепить контракт",
+            "BALANCE_NOT_ENOUGH": "Недостаточно средств"
+        },
+        "TAX_ACCOUNT": "Для осуществления налогового платежа перейдите по ссылке <strong><a href='{{path}}'>Платежи в тенге -> В бюджет -> Налоговый</a></strong>"
+    },
+    "FOOTER": {
+        "COPYRIGHT": "АО «First Heartland Jusan Bank»",
+        "YEARS": "© 1992-2021 гг."
+    },
+    "HISTORY": {
+        "LISTS": {
+            "ALL": "Все",
+            "FOR_SIGN": "На подпись",
+            "FOR_SIGN_OTHERS": "Другим на подпись",
+            "SUCCESS": "Исполненные",
+            "FAILED": "Отклоненные",
+            "IN_PROGRESS": "В обработке",
+            "DRAFT": "Черновики"
+        },
+        "EMPTY": "Нет операций",
+        "ALL": "Все",
+        "BACK_TO_HISTORY": "Вернуться в историю",
+        "CONVERSION": "Конвертация",
+        "CURRENCY_PAYMENTS": "В валюте",
+        "SELECT_ALL": "Выбрать все",
+        "SIGN_SELECTED": "Подписать выбранное",
+        "SEND_FOR_SIGN_SELECTED": "Отправить на подпись выбранное",
+        "DELETE_SELECTED": "Удалить выбранное",
+        "DOWNLOAD_SELECTED": "Скачать выбранные",
+        "SIGN_ALL": "Подписать все",
+        "SEND_ALL_FOR_SIGN": "Отправить все на подпись",
+        "SEND_FOR_SIGN": "Отправить на подпись",
+        "FOR_OTHERS": "Другим на подпись",
+        "SIGNED": "Подписано",
+        "TENGE_PAYMENTS": "Платежи в тенге",
+        "TITLE": "История операций",
+        "FOR_AMOUNT": "На сумму",
+        "DELETE": {
+            "PARTIAL": "Удалено частично",
+            "FAILED": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> не удалось удалить",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> не удалось удалить",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> не удалось удалить",
+                "TITLE": "Ошибка"
+            },
+            "SUCCESS": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> успешно удалено",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> успешно удален",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> успешно удалено",
+                "TITLE": "Удалено"
+            }
+        },
+        "FAILED": {
+            "DESCRIPTION": "Не удалось подписать платежи из-за непредвиденной ошибки. Попробуйте еще раз.",
+            "TITLE": "Ошибка"
+        },
+        "OPERATION": {
+            "FEW": "Операции",
+            "ONE": "Операция",
+            "OTHER": "Операций"
+        },
+        "CONVERSION_CONFIRM": {
+            "TITLE": "Подтверждение",
+            "DESCRIPTION": "Курс конвертации валют сменился",
+            "SUBTITLE": "Обновленные суммы",
+            "AGREED": "Согласен",
+            "FOR_REVISION": "На пересмотр"
+        },
+        "PARTIAL": {
+            "SUBTITLE": "Платежи с ошибкой",
+            "TITLE": "Подписано частично",
+            "FAILED": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> не удалось подписать",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> не удалось подписать",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> не удалось подписать"
+            },
+            "SUCCESS": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> успешно подписано",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> успешно подписан",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> успешно подписано"
+            }
+        },
+        "VALIDATION": {
+            "FEW": "<strong>{{transactionsCount}} платежа</strong> не прошли валидацию. Проверьте правильность заполнения",
+            "ONE": "<strong>{{transactionsCount}} платеж</strong> не прошел валидацию. Проверьте правильность заполнения",
+            "OTHER": "<strong>{{transactionsCount}} платежей</strong> не прошли валидацию. Проверьте правильность заполнения",
+            "ERROR": "Непредвиденная ошибка. Обратитесь в отделение банка"
+        },
+        "SEND_TO_SIGNED": {
+            "PARTIAL": "Отправлено на подпись частично",
+            "FAILED": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> не удалось отправить на подпись",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> не удалось отправить на подпись",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> не удалось отправить на подпись",
+                "TITLE": "Ошибка"
+            },
+            "SUCCESS": {
+                "FEW": "<strong>{{transactionsCount}} платежа</strong> успешно отправлено на подпись",
+                "ONE": "<strong>{{transactionsCount}} платеж</strong> успешно отправлен на подпись",
+                "OTHER": "<strong>{{transactionsCount}} платежей</strong> успешно отправлено на подпись",
+                "TITLE": "Готово"
+            }
+        },
+        "STATUS_HISTORY": {
+            "CREATED": "Создан",
+            "READY_TO_SEND": "Подписан",
+            "READY_TO_SEND_FROM_BANK": "Готово к отправке",
+            "BANK_PROCESSING": "В обработке",
+            "BANK_COMPLETED": "Исполнен",
+            "REJECTED": "Отклонен",
+            "TRANSFER_ROLLBACK": "Ошибка"
+        },
+        "STATUS": {
+            "TITLE": "Статус",
+            "COMPLETED": "Исполнен",
+            "CREATED": "Создан",
+            "DRAFT": "Черновик",
+            "READY_TO_SEND": "Готово к отправке",
+            "READY_TO_SEND_SUFFIX": "Готово к отправке с",
+            "FOR_SIGN": "На подпись Вам",
+            "REJECTED": "Отклонен",
+            "SIGNING": "Подписывают...",
+            "SIGNING_SUFFIX": "Подписывается с",
+            "WORKING": "В обработке",
+            "WORKING_SUFFIX": "В обработке с"
+        }
+    },
+    "HOME": {
+        "TITLE": "Главная"
+    },
+    "IMPORT": {
+        "FILE": "в файле {{fileName}}",
+        "TITLE": "Импорт",
+        "TO_DRAFTS": "Перейти к черновикам",
+        "TO_SIGNED": "К операциям на подпись",
+        "DRAFTED": {
+            "FEW": "<strong>{{operationsCount}} платежа</strong> загружены с ошибками и помещены в Черновик.",
+            "ONE": "<strong>{{operationsCount}} платеж</strong> загружен с ошибками и помещен в Черновик.",
+            "OTHER": "<strong>{{operationsCount}} платежей</strong> загружено с ошибками и помещено в Черновик.",
+            "SUBTITLE": "Платежи с ошибкой",
+            "TITLE": "Частично импортировано"
+        },
+        "INVALID_DATE_WARNING": "Согласно законодательству РК платежи в бюджет нельзя отправлять будущей датой валютирования.<br>Для вашего удобства они перенесены в Черновики с датой валютирования “Авто”.",
+        "ALREADY_IMPORTED_WARNING": {
+            "ONE": "Файл {{fileNames}} не загружен. Ранее он уже был импортирован.",
+            "OTHER": "Файлы {{fileNames}} не загружены. Ранее они уже были импортированы."
+        },
+        "ERRORS": {
+            "IDN_EMPTY": "Поле \"ИИН/БИН\" пустое или отсутствует",
+            "IDN_INVALID_FORMAT": "Поле \"ИИН/БИН\" некорректно",
+            "RECIPIENT_ACCOUNT_EMPTY": "Поле \"Счет получателя\" пустое или отсутствует",
+            "RECIPIENT_ACCOUNT_INVALID_FORMAT": "Поле \"Счет получателя\" некорректно",
+            "RECIPIENT_NAME_EMPTY": "Поле \"Имя получателя\" пустое или отсутствует",
+            "RECIPIENT_BIC_EMPTY": "Поле \"БИК получателя\" пустое или отсутствует",
+            "RECIPIENT_KBE_EMPTY": "Поле \"КБЕ получателя\" пустое или отсутствует",
+            "KNP_EMPTY": "Поле \"КНП\" пустое или отсутствует",
+            "DESCRIPTION_EMPTY": "Поле \"Назначение платежа\" пустое или отсутствует",
+            "PAYER_ACCOUNT_EMPTY": "Поле \"Счет отправителя\" пустое или отсутствует",
+            "PAYER_ACCOUNT_INVALID_FORMAT": "Поле \"Cчет отправителя\" некорректно",
+            "PAYER_ACCOUNT_NOT_EXISTS": "Счета отправителя не существует в текущей компании",
+            "DOCUMENT_NUMBER_EMPTY": "Поле \"Номер документа\" пустое или отсутствует",
+            "AMOUNT_EMPTY": "Поле \"Сумма платежа\" пустое или отсутствует",
+            "CURRENCY_EMPTY": "Поле \"Валюта платежа\" пустое или отсутствует",
+            "VALUE_DATE_INVALID": "Указана некорректная дата валютирования",
+            "VALUE_DATE_LATER_THAN_AVAILABLE": "Указана прошедшая дата валютирования",
+            "VALUE_DATE_NOT_WORKING_DAY": "Указанная дата валютирования является нерабочим днем",
+            "EMPLOYEE_LASTNAME_EMPTY": "Не указана фамилия у сотрудника",
+            "EMPLOYEE_FIRSTNAME_EMPTY": "Не указано имя у сотрудника",
+            "EMPLOYEE_AMOUNT_EMPTY": "Не указана сумма у сотрудника",
+            "EMPLOYEE_IDN_EMPTY": "Не указан ИИН у сотрудника",
+            "EMPLOYEE_IDN_INVALID_FORMAT": "Некорректный ИИН у сотрудника",
+            "EMPLOYEE_ACCOUNT_EMPTY": "Не указан счет у сотрудника",
+            "EMPLOYEE_ACCOUNT_INVALID_FORMAT": "Некорректный счет у сотрудника",
+            "EMPLOYEE_BIRTHDATE_EMPTY": "Не указана дата рождения у сотрудника",
+            "EMPLOYEE_PERIOD_EMPTY": "Не указан период у сотрудника",
+            "TOTAL_AMOUNT_NOT_EQUALS": "Общая сумма не равна рассчитанной по всем сотрудникам",
+            "RECIPIENT_KBE_INVALID": "Указанный КБе не соответствует типу платежа"
+        },
+        "ALREADY_IMPORTED": {
+            "ONE": "Данный файл уже импортирован.",
+            "OTHER": "Данные файлы уже импортированы.",
+            "TITLE": "Ошибка"
+        },
+        "FAILED": {
+            "ONE": "Не удалось импортировать файл, возможно он повреждён. Скачайте с 1С повторно и попробуйте ещё раз.",
+            "OTHER": "Не удалось импортировать файлы, возможно они повреждены. Скачайте с 1С повторно и попробуйте ещё раз.",
+            "TITLE": "Ошибка"
+        },
+        "INVALID": {
+            "FEW": "<strong>{{filesCount}} файла</strong> не удалось импортировать, возможно они повреждены.",
+            "ONE": "<strong>{{filesCount}} файл</strong> не удалось импортировать, возможно он повреждён.",
+            "OTHER": "<strong>{{filesCount}} файлов</strong> не удалось импортировать, возможно они повреждены."
+        },
+        "SUCCESS": {
+            "FEW": "<strong>{{operationsCount}} платежа</strong> успешно загружены и отправлены на подпись",
+            "ONE": "<strong>{{operationsCount}} платеж</strong> успешно загружен и отправлен на подпись",
+            "OTHER": "<strong>{{operationsCount}} платежей</strong> успешно загружено и отправлено на подпись",
+            "TITLE": "Импортировано"
+        }
+    },
+    "PAYMENTS": {
+        "SELECT_FROM_DICTIONARY": "Выбрать из справочника",
+        "CREATED_FOR_SIGN": "Создан на подпись",
+        "NEW_PAYMENT": "Новый платеж",
+        "EDIT_PAYMENT": "Редактирование платежа",
+        "EDIT_PAYMENT_DRAFT": "Редактирование черновика",
+        "CANSELECTPAYFORPERIOD": "Вы можете задать период для оплаты",
+        "FORPERIOD": "Оплатить за период",
+        "PAYFORPERIOD": "Оплата будет проведена за период",
+        "SAVE_TO_DRAFTS": "В черновик",
+        "COMMON_PERIOD": "Общий период",
+        "COMMON_PERIOD_EMPLOYEES": "Для всех сотрудников будет общий период",
+        "TRUSTED_COUNTERPARTY": "Проверенный контрагент",
+        "UNTRUSTED_COUNTERPARTY": "Подозрительный контрагент",
+        "COMMISSION_CALC_AUTO": "Комиссия рассчитывается автоматически",
+        "COMMISSION": "Комиссия",
+        "PAYMENT_EDITED": "Платеж отредактирован",
+        "PAYMENT_SIGNED": "Платеж подписан",
+        "PAYMENT_SENT_FOR_SIGN": "Платеж отправлен на подпись",
+        "PAYMENT_SIGNED_AND_SENT": "Платеж подписан и отправлен",
+        "RECIPIENT": {
+            "TITLE": "Получатель",
+            "ACCOUNT": "Счет получателя"
+        },
+        "SENDER_ACCOUNT": {
+            "SELECTED": "Счет списания",
+            "UNSELECTED": "Выберите счет списания"
+        },
+        "TYPE": {
+            "MEDICAL": "ОСМС",
+            "SALARY": "Зарплатный платеж",
+            "TAX": "Налоговый платеж",
+            "SOCIAL": "Социальный платеж",
+            "PENSION": "Пенсионный платеж",
+            "IN_BETWEEN": "Между своими счетами",
+            "CONVERSION": "Конвертация"
+        },
+        "EMPLOYEES": {
+            "LIST": "Список сотрудников",
+            "TITLE": "Сотрудники",
+            "BIRTH_DATE": "Дата Рождения",
+            "SELECTED": "Выбрано",
+            "SELECT_ALL": "Выбрать всех",
+            "SEARCH": "Поиск по ФИО и ИИН",
+            "EMPTY": "У вас нет сохраненных сотрудников",
+            "EDIT": "Редактирование сотрудника",
+            "NAME": "ФИО",
+            "ACCOUNT": "Счет",
+            "IBAN": "Счет получателя",
+            "IBAN_HELPER": "Счет должен принадлежать банку получателя",
+            "ADD_NEW": "Добавить нового сотрудника",
+            "REMOVED": "Сотрудник удален из платежа",
+            "REMOVE_FROM_PAYMENT": "Удалить сотрудника из платежа",
+            "REMOVE_PERIOD_PAYMENT": "Удалить период платежа",
+            "REMOVE_CONFIRM": "Вернуть {{deleteTimerValue}}",
+            "NO_IBAN": "Укажите счет",
+            "NO_AMOUNT": "Укажите сумму",
+            "NO_BIRTH_DATE": "Укажите дату рождения",
+            "ADD_PERIOD": "Добавить период",
+            "FIO_HELPER": "Введите через пробел полные фамилию, имя и отчество как указано в документах",
+            "NOT_FOUND": "Сотрудник не найден"
+        },
+        "URGENT_HELPER": "Доступен до 16:00. Платеж будет обрабатываться от 3 мин до 3 часов",
+        "TIME_MODALS": {
+            "TODAY": {
+                "TITLE": "Платежи принимаются до {{endTime}}",
+                "DESCRIPTION": "Для отправки платежа поменяйте <br> дату валютирования"
+            },
+            "AUTO": {
+                "TITLE": "Платежи принимаются до {{endTime}}",
+                "DESCRIPTION": "Платеж отправится в ближайший <br> рабочий день"
+            },
+            "HOLIDAY": {
+                "TITLE": "Выходные или праздничные дни",
+                "DESCRIPTION": "В связи с нерабочими днями, платеж будет принят в обработку в ближайший рабочий день после выходных или праздников"
+            }
+        },
+        "VIN_MESSAGE": {
+            "OPTIONAL": "Необязательное поле",
+            "LESS": "Введенный VIN- код менее {{length}} символов",
+            "MORE": "Введенный VIN- код более {{length}} символов"
+        }
+    },
+    "SETTINGS": {
+        "MAIN": "Основное",
+        "TITLE": "Настройки",
+        "AUTHORITIES": {
+            "ACCOUNTANT": "Бухгалтер",
+            "END_DATE": "Дата завершения",
+            "FIRST_SIGN": "1-ая подпись",
+            "HEAD": "Директор",
+            "MAIN_ACCOUNTANT": "Главный Бухгалтер",
+            "NO_SIGN": "Без подписи",
+            "ROLE": "Должность",
+            "SECOND_SIGN": "2-ая подпись",
+            "START_DATE": "Дата начала",
+            "TITLE": "Уполномоченные лица"
+        },
+        "COMPANY": {
+            "ADDRESS": "Юридический адрес",
+            "IIN": "ИИН/БИН",
+            "KBE": "Кбе",
+            "NAME": "Наименование",
+            "REGISTER_DATE": "Дата регистрации",
+            "SECTOR": "Сектор экономики",
+            "TITLE": "О компании",
+            "UGD": "УГД",
+            "REQUISITES": "Все реквизиты"
+        },
+        "CONTACTS": {
+            "CALL_CENTER": "Колл-центр",
+            "EMAIL": "Эл. адрес",
+            "MANAGER": "Персональный менеджер",
+            "PHONE": "Телефон",
+            "TITLE": "Контакты"
+        },
+        "PASSWORD": {
+            "TITLE": "Смена пароля",
+            "DESCRIPTION": "Пароль будет использован для входа в Jusan Business через приложение и компьютер",
+            "SUCCESS": "Пароль успешно изменен",
+            "OLD_ERROR": "Старый пароль введен неверно",
+            "IDENTICAL": "Новый пароль должен отличаться от старого"
+        },
+        "PRIVATE": {
+            "TITLE": "Личные данные",
+            "NAME": "ФИО",
+            "IIN": "ИИН/БИН",
+            "ROLE": "Должность",
+            "RIGHTS": "Право подписи",
+            "EMAIL": "Эл. адрес",
+            "PHONE": "Номер телефона"
+        },
+        "FAQ": {
+            "TITLE": "FAQ"
+        },
+        "REQUISITES": {
+            "SELECT_REQUISITES": "Выберите счета",
+            "SELECT_ALL": "Выбрать все"
+        },
+        "FEATURE_REQUEST": {
+            "TITLE": "Запросить функцию",
+            "SUB_TITLE": "Напишите нам, чтобы вы хотели добавить",
+            "DESCRIPTION": "Помогите улучшить онлайн сервис нашего банка",
+            "INPUT_LABEL": "Что нам стоит улучшить?",
+            "SEND": "Отправить",
+            "SUCCESS_MODAL": {
+                "TITLE": "Отправлено",
+                "DESCRIPTION": "Спасибо, что помогаете нам улучшать Jusan Business"
+            },
+            "NOTIFICATIONS": {
+                "SAVE_REQUEST_ERROR": "Не удалось отправить запрос на функцию"
+            }
+        }
+    },
+    "EXTRA_SETTINGS": {
+        "TITLE": "Еще"
+    },
+    "SHARED": {
+        "BACK": "Назад",
+        "SOON": "Скоро",
+        "ADD": "Добавить",
+        "LOADING": "Загрузка...",
+        "SEND": "Отправить",
+        "TOTAL": "Итого",
+        "ERROR": "Ошибка",
+        "AMOUNT": "Сумма",
+        "APPLY": "Применить",
+        "NEXT": "Далее",
+        "SAVE_EDITING": "Сохранить редактирование",
+        "CLEAR": "Сбросить",
+        "RETURN": "Вернуть",
+        "BACK_TO_HOME": "Вернуться на главную",
+        "CANCEL": "Отмена",
+        "CLOSE": "Закрыть",
+        "CONTINUE": "Продолжить",
+        "CREATE": "Создать",
+        "DONE": "Готово",
+        "EMAIL": "Email адрес",
+        "FORGOT_PASSWORD": "Забыли пароль?",
+        "IIN": "ИИН",
+        "SELECTED": "Выбрано",
+        "NOT_SELECTED": "Не выбрано",
+        "OK": "Ок",
+        "PASSWORD": "Пароль",
+        "PHONE": "Номер телефона",
+        "REFRESH": "Обновить",
+        "SAVE": "Сохранить",
+        "TO_SIGN": "Подписать",
+        "SIGNED": "Подписано",
+        "FOR_SIGN": "На подпись",
+        "TRY_AGAIN": "Попробовать еще раз",
+        "USER_NOT_FOUND": "Мы вас не нашли",
+        "USER_BLOCKED": "Вы заблокированы",
+        "ADD_FROM_DICTIONARY": "Добавить из справочника",
+        "FROM_DICTIONARY": "Из справочника",
+        "SEARCH_NOT_FOUND": "По данному запросу ничего не найдено",
+        "LIST_LOADING_ERR_REFRESH": "Не удалось загрузить список, попробуйте еще раз",
+        "PREPOSITION": {
+            "FROM": "от",
+            "TO": "до"
+        },
+        "SMS": {
+            "DESCRIPTION": "Введите код из СМС, отправленный на номер",
+            "DESTINATION": "на номер",
+            "NEW_CODE": "Получить новый код можно через <strong>{{timerValue}}</strong> сек.",
+            "TAB": "СМС код",
+            "TITLE": "СМС подтверждение"
+        },
+        "OTP": {
+            "DESCRIPTION": "Введите код, сгенерированный ОТП картой",
+            "TAB": "ОТП код",
+            "TITLE": "ОТП код"
+        },
+        "TIME": {
+            "MONTH": "Месяц ",
+            "PERIOD": "Период "
+        },
+        "PERSON": {
+            "FIO": "ФИО"
+        },
+        "ERROR_PLACEHOLDER": {
+            "TITLE": "Ошибка сервера",
+            "SUBTITLE": "Попробуйте обновить страницу",
+            "RETRY": "Обновить"
+        },
+        "MAINTENANCE": {
+            "TITLE": "Технические работы",
+            "DESCRIPTION": "По техническим причинам добавление контракта временно не работает. <br>Попробуйте позже или обратитесь в банк по номеру <a href='tel:7711'>7711</a>"
+        },
+        "ACTION_ERROR": "Не удалось выполнить действие"
+    },
+    "FILES": {
+        "DEFAULT_ERROR": "Не удалось загрузить файл",
+        "FILE_IS_LOADING": "Файл загружается...",
+        "ALREADY_UPLOADING": "Файл \"{{fileName}}\" уже загружен",
+        "IS_NOT_SUPPORTED_FORMAT_ERROR": "Формат файла должен быть {{acceptedFormats}}",
+        "MAX_SIZE_ERROR": "Размер одного файла не может быть более 5 МБ",
+        "PLEASE_WAIT": "Файлы еще загружаются...",
+        "ALL_FILES_ERRORED": "Загрузите валидный файл для проверки",
+        "HAS_ERRORED_FILES": "На проверку были отправлены только валидные файлы"
+    },
+    "LETTERS": {
+        "TITLE": "Заявки и справки",
+        "ADD_NEW": "Заявки/Справки/Письмо в банк",
+        "TYPES": {
+            "OUTBOX": "Исходящие",
+            "INBOX": "Входящие",
+            "DRAFT": "Черновики"
+        },
+        "CREATE": {
+            "TITLE": "Новое письмо",
+            "EDIT": "Редактирование",
+            "BODY": "Текст письма",
+            "ADD_FILE": "Прикрепить файл",
+            "MAX_FILES_REACHED": "Загружено свыше 10 файлов",
+            "ADD_FILE_DESCRIPTION": "(максимум 10 файлов, 1 файл не более 5МБ, поддерживаемые форматы: {{acceptedFormats}})",
+            "SAVE_EDITING": "Сохранить редактирование",
+            "SAVE_TO_DRAFT": "В черновик",
+            "CREATE_AND_SEND_FOR_SIGN": "На подпись",
+            "CREATE_AND_SIGN": "Подписать и отправить",
+            "SIGN": "Подписать",
+            "INFO": "Обработка запроса до 3-х рабочих дней",
+            "NOTIFICATIONS": {
+                "SIGNED": "Документ подписан",
+                "SENT_FOR_SIGN": "Документ отправлен на подпись",
+                "SAVED_TO_DRAFT": "Документ сохранен в черновик",
+                "SAVED_EDITING": "Документ сохранен",
+                "SIGNED_ERROR": "Не удалось подписать документ",
+                "SENT_FOR_SIGN_ERROR": "Не удалось отправить документ на подпись",
+                "SAVED_TO_DRAFT_ERROR": "Не удалось сохранить документ в черновик",
+                "SAVED_EDITING_ERROR": "Не удалось сохранить документ"
+            }
+        },
+        "CREATE_CONTENT": {
+            "TITLE": "Создать",
+            "CERTIFICATE": "Cправки",
+            "APPLICATION": "Заявки"
+        },
+        "EMPTY": {
+            "DEFAULT": "Нет документов",
+            "NOT_FOUND": "Нет документов за указанный период",
+            "FOR_SIGN": "Нет документов на подпись",
+            "FOR_SIGN_OTHERS": "Нет документов на подпись другим",
+            "OUTBOX": "Нет исходящих документов",
+            "INBOX": "Нет входящих документов",
+            "DRAFTS": "Нет документов в черновиках"
+        },
+        "DATE": {
+            "TODAY": "Сегодня в {{time}}",
+            "YESTERDAY": "Вчера в {{time}}"
+        },
+        "DETAILS": {
+            "REPLY": "Ответить на письмо",
+            "SIGNERS": "Подписанты"
+        },
+        "ITEM": {
+            "FOR_SIGN": "На подпись",
+            "DELETE": "Удалить",
+            "SIGN": "Подписать",
+            "CHECKBOX": "Выбрать"
+        },
+        "STATUSES": {
+            "ON_SIGN": "На подпись",
+            "SENT": "Отправлены"
+        },
+        "LIST": {
+            "ALL_LOADED": "Все письма загружены",
+            "OTHERS_FOR_SIGN": "Другим на подпись",
+            "CHECKBOX": "Выбрать все",
+            "SIGN_ALL": "Подписать все",
+            "FOR_SIGN": "На подпись",
+            "SELECTED": "Выбрано:",
+            "DELETE_SELECTED": "Удалить выбранное",
+            "SIGN_SELECTED": "Подписать выбранное",
+            "SELECT_ALL": "Выбрать все",
+            "TOTAL": "Писем и заявок:",
+            "ITEM": {
+                "FOR_SIGN": "На подпись",
+                "DELETE": "Удалить",
+                "SIGN": "Подписать",
+                "CHECKBOX": "Выбрать"
+            },
+            "MODAL": {
+                "ERRORS": "Письма с ошибкой",
+                "SIGN": {
+                    "PARTIAL": "Подписано частично",
+                    "FAILED": {
+                        "TITLE": "Ошибка",
+                        "FEW": "<strong>{{count}} письма</strong> не удалось подписать",
+                        "ONE": "<strong>{{count}} письмо</strong> не удалось подписать",
+                        "OTHER": "<strong>{{count}} писем</strong> не удалось подписать"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Подписано",
+                        "FEW": "<strong>{{count}} письма</strong> успешно подписаны",
+                        "ONE": "<strong>{{count}} письмо</strong> успешно подписано",
+                        "OTHER": "<strong>{{count}} писем</strong> успешно подписаны"
+                    }
+                },
+                "DELETE": {
+                    "PARTIAL": "Удалено частично",
+                    "FAILED": {
+                        "TITLE": "Ошибка",
+                        "FEW": "<strong>{{count}} письма</strong> не удалось удалить",
+                        "ONE": "<strong>{{count}} письмо</strong> не удалось удалить",
+                        "OTHER": "<strong>{{count}} писем</strong> не удалось удалить"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Удалено",
+                        "FEW": "<strong>{{count}} письма</strong> успешно удалено",
+                        "ONE": "<strong>{{count}} письмо</strong> успешно удалено",
+                        "OTHER": "<strong>{{count}} писем</strong> успешно удалено"
+                    }
+                }
+            }
+        }
+    },
+    "STATEMENT": {
+        "TRANSACTION": {
+            "COMMISSION_FOR_ACCOUNT": "Комиссия за ведение счета",
+            "COMMISSION_FOR_OPERATION": "Комиссия за операцию",
+            "REFUND": "Возврат",
+            "NO_TITLE": "Без наименования",
+            "NO_DESCRIPTION": "Без описания",
+            "SELECT": "Выбрать",
+            "RECEIVER": "Получатель",
+            "SENDER": "Отправитель",
+            "DOWNLOAD": "Скачать в PDF",
+            "REPEAT": "Повторить",
+            "DELETE": "Удалить",
+            "SEND_FOR_SIGN": "Отправить на подпись",
+            "REVOKE": "Отклонить",
+            "EDIT": "Редактировать",
+            "SIGN_FAILED": "Не удалось подписать платеж",
+            "SIGN_SUCCESS": "Платеж успешно подписан",
+            "STATE": {
+                "REVOKED": "Платеж отозван",
+                "WAITING_FOR_QUEUE": "В очереди на отправку в Банк",
+                "WAITING_FOR_TRANSACTION": "Ожидается списание",
+                "WAITING_FOR_DEPOSIT": "Недостаточно баланса, ожидается пополнение",
+                "WAITING_FOR_UNLOCK": "Ожидается разблокировка счета списания",
+                "WAITING_FOR_VALUE_DATE": "Будет обработан банком {{valueDate}}",
+                "REJECTED_FOR_UNSUFFICIENT_SIGNATURES": "Не собраны требуемые подписи до окончания даты валютирования",
+                "REJECTED_FOR_EXPIRATION": "Платеж не был обработан до окончания даты валютирования"
+            }
+        },
+        "EMPLOYEES": {
+            "TITLE": "Сотрудники",
+            "SHOW_LIST": "Перейти к списку",
+            "PERIOD": "Период",
+            "AMOUNT": "Сумма",
+            "ACCOUNT": "Счет",
+            "IIN": "ИИН"
+        },
+        "DETAILS": {
+            "TITLE": "Детали платежа",
+            "EMAIL": "Email",
+            "SIGNERS": "Подписанты",
+            "DOWNLOAD": "Скачать",
+            "SIGN": "Подписать платеж",
+            "SEND_FOR_SIGN": "На подпись",
+            "REPEAT": "Повторить платеж",
+            "DELETE": "Удалить платеж",
+            "REVOKE": "Отклонить платеж",
+            "EDIT": "Редактировать платеж",
+            "VALUE_DATE": "Дата валютир.",
+            "KNP": "КНП",
+            "PAYER_IBAN": "Счет списания",
+            "PAYER_COMMISSION_IBAN": "Счет списания комиссии",
+            "RECEIVER_IBAN": "Счет пополнения",
+            "IBAN": "Счет",
+            "DOCUMENT_NUMBER": "№ документа",
+            "NAME": "Наименование",
+            "BIN": "БИН/ИИН",
+            "KBE": "Кбе",
+            "KBK": "КБК",
+            "BANK": "Банк",
+            "BIC": "БИК",
+            "TO_INITIAL": "Перейти к исходному платежу",
+            "PAYER_CARD_NUMBER": "Карта списания",
+            "RECIPIENT_CARD_NUMBER": "Карта пополнения",
+            "INITIAL_PAYMENT_NOT_FOUND": "Исходный платеж не найден"
+        },
+        "FOREIGN_DETAILS": {
+            "CONTRACT_NUMBER": "Номер контракта",
+            "UNK": "УНК",
+            "CODENAME": "Кодовое слово",
+            "KVO": "Код валютной операции (КВО)",
+            "PAYER_INN": "ИНН/КИО отправителя",
+            "PAYER_KPP": "КПП отправителя",
+            "KBK": "КБК",
+            "OKTMO": "ОКТМО",
+            "PAYER_STATUS": "Статус плательщика",
+            "PAYMENT_BASIS": "Основание платежа",
+            "BUDGET_DOC_NUMBER": "Номер налогового документа",
+            "PERIOD": "Период",
+            "UIP": "Номер налогового документа",
+            "CODEWORD_AE": "Код назначения ОАЭ",
+            "CODEWORD": "Кодовое слово"
+        },
+        "FOREIGN_RECEIVER": {
+            "TITLE": "Получатель",
+            "COUNTRY": "Страна",
+            "CITY": "Город",
+            "IBAN": "Счет/IBAN получателя",
+            "BIC": "BIC/SWIFT",
+            "NAME": "Наименование",
+            "KIO": "ИНН/КИО",
+            "KPP": "КПП"
+        },
+        "TRANSFER_ACTIONS": {
+            "SIGN": "Подписать перевод",
+            "TITLE": "Детали перевода",
+            "DELETE": "Удалить перевод",
+            "EDIT": "Редактировать перевод",
+            "REPEAT": "Повторить перевод",
+            "REVOKE": "Отклонить перевод"
+        },
+        "CONVERSION_ACTIONS": {
+            "SIGN": "Подписать заявку",
+            "TITLE": "Детали заявки",
+            "DELETE": "Удалить заявку",
+            "EDIT": "Редактировать заявку",
+            "REPEAT": "Повторить заявку",
+            "REVOKE": "Отклонить заявку"
+        },
+        "CONVERSION": {
+            "TITLE": "Детали заявки",
+            "RATE": "Курс покупки",
+            "TO_IBAN": "Счет пополнения",
+            "FROM_AMOUNT": "Сумма списания",
+            "TO_AMOUNT": "Сумма пополнения",
+            "NUMBER": "№ заявки",
+            "PURPOSE": "Цель конвертации"
+        }
+    },
+    "TRANSFERS": {
+        "TITLE": "Между своими счетами",
+        "FROM": "Откуда",
+        "TO": "Куда",
+        "DOCUMENT_NUMBER": "Номер документа",
+        "AMOUNT": "Сумма перевода",
+        "FOR_SIGN": "На подпись",
+        "SAVE": "Сохранить редактирование",
+        "SIGN": "Подписать",
+        "SEND": "Отправить",
+        "NAVIGATE_TO_HISTORY": "Проверить статус",
+        "COMMISSION": "Комиссия: {{amount}}",
+        "NOT_ENOUGH": "Не хватает {{amount}} ₸. Перевод будет принят, но уйдет в обработку после пополнения баланса.",
+        "SAME_IBANS_NOTIFICATION": "Невозможен перевод, у карт единый IBAN",
+        "EDIT": {
+            "SUCCESS": "Перевод успешно сохранен",
+            "ERROR": "Не удалось сохранить перевод"
+        },
+        "CREATE": {
+            "SUCCESS": "Перевод отправлен на подпись",
+            "ERROR": "Не удалось отправить перевод на подпись"
+        },
+        "CREATE_AND_SIGN": {
+            "SUCCESS": "Перевод подписан и отправлен",
+            "ERROR": "Не удалось подписать или отправить перевод на подпись"
+        },
+        "SIGN_ONLY": {
+            "SUCCESS": "Перевод подписан",
+            "ERROR": "Не удалось подписать перевод"
+        }
+    },
+    "CARDS": {
+        "STATEMENT": "Выписка",
+        "INFO": {
+            "TITLE": "Информация",
+            "FAILED": "Не удалось загрузить карту",
+            "STATUS": "Статус",
+            "EXPIRE_DATE": "Срок действия",
+            "OWNER": "Владелец",
+            "IIN": "ИНН",
+            "KBE": "КБе",
+            "IBAN": "Счет",
+            "BANK": "Банк",
+            "BIC": "БИК",
+            "COPY": "Копировать",
+            "COPIED": "Скопировано"
+        },
+        "SETTINGS": {
+            "TITLE": "Настройки",
+            "LOCK": {
+                "TITLE": "Заблокировать карту",
+                "ACTIVATE": "Включить временную блокировку",
+                "ACTIVATED_NOTIFICATION": "Карта заблокирована",
+                "ACTIVATED_FAILED": "Не удалось заблокировать карту",
+                "DEACTIVATE": "Отключить временную блокировку",
+                "DEACTIVATED_NOTIFICATION": "Карта разблокирована",
+                "DEACTIVATED_FAILED": "Не удалось разблокировать карту"
+            },
+            "HIDE": {
+                "TITLE": "Ограничить доступ к карте",
+                "DESCRIPTION": "Доступ только для директоров",
+                "HIDDEN_NOTIFICATION": "Ограничен доступ к карте.\n Карту будут видеть только директора.",
+                "HIDDEN_FAILED": "Не удалось ограничить доступ к карте",
+                "SHOWN_NOTIFICATION": "Карту будут видеть все уполномоченные лица, \n имеющие доступ в Jusan Business",
+                "SHOWN_FAILED": "Не удалось открыть доступ к карте"
+            },
+            "RENAME": {
+                "TITLE": "Наименование карты",
+                "LINK": "Изменить"
+            }
+        },
+        "STATUS": {
+            "UNLOCK": "Разблокировать",
+            "BRANCHES": "Поиск отделения",
+            "TITLE": {
+                "ACTIVE": "Активна",
+                "EXPIRED": "Срок действия карты истек",
+                "LOCK": "Заблокирована",
+                "TEMPORARILY_LOCK": "Временно заблокирована"
+            },
+            "DESCRIPTION": {
+                "EXPIRED": "Для перевыпуска обратитесь в отделение банка.",
+                "FRAUD": "Были замечены подозрительные операции во “Фродо-опасных” странах. Для безопасности ваших средств карта заблокирована. Обратитесь в банк для дальнейшей консультации.",
+                "THEFT_LOCK": "Карта временно заблокирована банком. Были замечены подозрительные транзакции. Для разблокировки карты обратитесь в отделение банка.",
+                "LOST_LOCK": "Ваша карта была заблокирована по утере. Для перевыпуска карты обратитесь в отделение банка.",
+                "TEMPORARILY_LOCK": "Карта временно заблокирована. Вы можете разблокировать карту в любой момент."
+            }
+        },
+        "RENAME_MODAL": {
+            "TITLE": "Наименование карты",
+            "LABEL": "Наименование",
+            "SUCCESS": "Карта переименована",
+            "ERROR": "Не удалось переименовать карту"
+        }
+    },
+    "FILTER": {
+        "TITLE": "Фильтр",
+        "SEARCH": {
+            "TITLE": "Искать",
+            "LARGE": "Поиск по наименованию, БИН/ИИН, счету",
+            "COUNTERPARTY": "Наименование, БИН/ИИН, № счета контрагента",
+            "SMALL": "Поиск",
+            "DOCUMENT_NUMBER": "Номер документа"
+        },
+        "AMOUNT": {
+            "FROM": "с ",
+            "FROM_LARGE": "Сумма от",
+            "TO": "до ",
+            "TO_LARGE": "Сумма до"
+        },
+        "REMOVE": "Удалить фильтр",
+        "SORT": {
+            "TITLE": "Сортировать",
+            "DEFAULT": "Сначала новые операции",
+            "AMOUNT_ASC": "По возрастанию суммы",
+            "AMOUNT_DESC": "По убыванию суммы"
+        },
+        "DOWNLOAD": "Скачать",
+        "PRINT": "Распечатать",
+        "SHARE": "Поделиться выпиской",
+        "PERIOD": {
+            "TITLE": "Период",
+            "CALENDAR": "Календарь",
+            "TODAY": "Сегодня",
+            "YESTERDAY": "Вчера",
+            "CURRENT_WEEK": "Текущая неделя",
+            "CURRENT_MONTH": "Текущий месяц",
+            "CURRENT_QUARTER": "Текущий квартал",
+            "PREVIOUS_QUARTER": "Предыдущий квартал",
+            "CUSTOM": "Выбрать период"
+        },
+        "OPERATION": {
+            "ALL": "Все",
+            "INCOME": "Приход",
+            "OUTCOME": "Расход"
+        }
+    },
+    "CURRENCY_PAYMENT": {
+        "NEW_PAYMENT": "Валютный платеж",
+        "EDIT_PAYMENT": "Редактирование платежа",
+        "EDIT_PAYMENT_DRAFT": "Редактирование черновика",
+        "DEBIT_ACCOUNT": "Счет списания",
+        "CONTRACTS": {
+            "TITLE": "Контракты",
+            "ADD_NEW": "Добавить новый контракт",
+            "SELECT": {
+                "REMAINDER": "Остаток"
+            },
+            "SHOW_DETAILS": "Детали",
+            "SWITCH": {
+                "TITLE": "Платеж в рамках контракта",
+                "DESCRIPTION": "Также при платежах превышающих {{amount}}, кроме перевода собственных средств внутри Казахстана и зарубеж"
+            },
+            "STATUS": {
+                "REGED": "Контракт подтвержден"
+            },
+            "INFO": {
+                "AMOUNT": "Сумма контракта/инвойса",
+                "REMAINDER": "Остаток по контракту"
+            },
+            "DETAILS": {
+                "TITLE": "Детали",
+                "CONTRACT_TYPE": "Вид контракта",
+                "DATE_FROM": "Дата заключения",
+                "DATE_TO": "Дата завершения",
+                "CURRENCIES": "Валюты платежей"
+            },
+            "RECIPIENT": {
+                "TITLE": "Получатель",
+                "NAME": "Наименование",
+                "COUNTRY": "Страна",
+                "CITY": "Город/Штат",
+                "BANK": "БИК/SWIFT"
+            },
+            "EMPTY_STATE": "Нет контрактов",
+            "NOT_FOUND": "Не найдено контрактов по данному запросу"
+        },
+        "CONTRACTS_DICTIONARY": {
+            "OPEN": "Выбрать получателя",
+            "TITLE": "Получатели из контракта",
+            "SEARCH": "Поиск по названию",
+            "EMPTY": "У выбранного контракта нет получателей"
+        },
+        "DICTIONARY": {
+            "TITLE": "Справочник",
+            "OPEN": "Выбрать из справочника",
+            "IBAN": "IBAN",
+            "SEARCH": "Поиск по наименованию, стране, счету",
+            "NOT_FOUND": "Не найдено получателей по данному запросу",
+            "EMPTY": "У вас пока нет сохраненных получателей"
+        },
+        "RECIPIENT": {
+            "TITLE": "Получатель",
+            "SELECT_FROM_DICTIONARY": "Выбрать из справочника",
+            "COUNTRY": "Страна",
+            "CONTRACT": "Контракты",
+            "CODEWORD": "Кодовое слово",
+            "CODEWORD_AE": "Код назначения ОАЭ",
+            "CONTRACT_DETAILS": "Детали",
+            "CITY": "Город",
+            "CITY_BANK": "Город Банка получателя",
+            "CITY_STATE": "Город/Штат",
+            "NAME": "Наименование получателя",
+            "KBE": "КБе",
+            "IBAN": "Счет/IBAN получателя",
+            "IBAN_INFO": {
+                "TITLE": "Укажите счет получателя",
+                "DESCRIPTION": "При отправке платежа в Россию, счет должен начинаться с цифры 4"
+            },
+            "BIC": "BIC/SWIFT",
+            "BANK": "Банк получателя",
+            "NO_BIC_ENTERED": "Введите BIC/SWIFT банка получателя",
+            "NO_INTERMEDIARY_BIC_ENTERED": "Введите BIC/SWIFT банка-посредника",
+            "NO_CORRESPONDENT_BIC_ENTERED": "Введите BIC/SWIFT банка корреспондента",
+            "BIC_DESCRIPTION": "При наличие в реквизитах",
+            "SWITCH": {
+                "TITLE": "Банк-посредник",
+                "DESCRIPTION": "По требованию получателя"
+            },
+            "CORRESPONDENT_BIC": "Банк корреспондент (57)",
+            "CORRESPONDENT_IBAN": "Корреспондентский счет (59)",
+            "KIO": "ИНН/КИО",
+            "KPP": "КПП",
+            "KPP_DESCRIPTION": "При наличии в реквизитах"
+        },
+        "DETAILS": {
+            "TITLE": "Детали платежа",
+            "DOCUMENT_NUMBER": "Номер документа",
+            "VALUE_DATE": "Дата валютирования",
+            "VALUE_DATE_DESCRIPTION": "При достаточном балансе платеж сразу уйдет в обработку",
+            "KVO": "Код валютной операции (КВО)",
+            "KNP": {
+                "TITLE": "КНП — Код назначения платежа",
+                "DICTIONARY": "Справочник",
+                "FREQUENT": "Частые КНП",
+                "DESCRIPTION": "Выбор КНП зависит от цели платежа"
+            },
+            "PURPOSE": "Назначение платежа",
+            "PURPOSE_DESCRIPTION": "При оплате за товары/услуги укажите наименование товаров, работ, услуг, номера и даты договоров/счетов"
+        },
+        "COMISSION": {
+            "ACCOUNT": "Счет списания комиссии",
+            "DESCRIPTION": "Комиссии банков посредников будут взиматься из суммы платежа. Сумма может дойти неполной."
+        },
+        "AGENT": {
+            "TITLE": "Оплатить комиссию банков посредников",
+            "DESCRIPTION": "Сумма платежа дойдет полной"
+        },
+        "AMOUNT": {
+            "TITLE": "Сумма платежа"
+        },
+        "AGREEMENT": {
+            "ENTREPRENEUR": "<strong>Продолжая я</strong> <br> <strong>Разрешаю</strong> уполномоченному банку предоставление информации о данном платеже и (или) переводе денег в правоохранительные органы Республики Казахстан и (или) Национальный Банк; <br><br> <strong>Подтверждаю,</strong> что данный платеж и (или) перевод денег не связан с исполнением валютного договора, по которому требуется получение учетного номера (для резидентов); <br><br> <strong> Подтверждаю,</strong> что данный платеж и (или) перевод денег не связан с финансированием террористической или экстремистской деятельности и иным пособничеством терроризму или экстремизму.",
+            "CORPORATE": "<strong>Продолжая, я подтверждаю,</strong> что перевод денег не связан с исполнением валютного договора, по которому требуется присвоение учетного номера."
+        },
+        "RUSSIAN_BUDGET": {
+            "TITLE": "Платеж в бюджет РФ",
+            "IS_TAXPAYER": "Являетесь налогоплательщиком РФ",
+            "KIO": "ИНН/КИО отправителя",
+            "KIO_LENGTH_MISMATCH": "Поле должно состоять из 5 или 10 символов",
+            "KPP": "КПП отправителя",
+            "KBK": "КБК",
+            "KBK_NOT_FOUND": "Не найдено КБК по данному запросу",
+            "STATUS_NOT_FOUND": "Не найдено статусов по данному запросу",
+            "OKTMO": "ОКТМО",
+            "PAYER_STATUS": "Статус плательщика",
+            "EXTRAS": "Дополнительные поля, при наличие в реквизитах",
+            "PURPOSE": "Основание платежа",
+            "TAX_NUMBER": "Номер налогового документа",
+            "PERIOD": "Период",
+            "PERIOD_DESCRIPTION": "Пример: «12.02.2021», «ГД.00.2021»",
+            "UIP": "УИП/УИН"
+        },
+        "AUD": {
+            "INDEX": "Индекс",
+            "STATE": "Штат",
+            "BUILDING_NUMBER": "№ дома",
+            "STREET": "Улица",
+            "ADDRESS": "Адрес"
+        }
+    },
+    "CONVERSION": {
+        "TITLE": "Конвертация",
+        "FROM": {
+            "TITLE": "Списать",
+            "LABEL": "Счет списания"
+        },
+        "TO": {
+            "TITLE": "Зачислить",
+            "LABEL": "Счет зачисления"
+        },
+        "AMOUNT": "Сумма",
+        "COMMISSION": "Комиссия",
+        "COMMISSION_FALLBACK": "рассчитывается автоматически",
+        "COMMISSION_ACCOUNT": "Счет для списания комиссии",
+        "RATE": "Курс покупки",
+        "RATE_ERROR": "Не удалось загрузить курс валют",
+        "RATE_RETRY": "Обновить",
+        "RATE_NOT_LOADED": "Курс валют не загружен. Обновите его и попробуйте снова",
+        "RATE_CHANGED": "Курс поменялся. Проверьте и попробуйте еще раз.",
+        "DETAILS": {
+            "TITLE": "Детали конвертации",
+            "DOCUMENT_NUMBER": "Номер заявления",
+            "PURPOSE": "Цель конвертации",
+            "DESCRIPTION": "Назначение конвертации"
+        },
+        "SAVE": "Сохранить редактирование",
+        "FOR_SIGN": "На подпись",
+        "SIGN": "Подписать",
+        "NAVIGATE_TO_HISTORY": "Проверить статус",
+        "EDIT": {
+            "SUCCESS": "Конвертация успешно сохранена",
+            "ERROR": "Не удалось сохранить конвертацию"
+        },
+        "CREATE": {
+            "SUCCESS": "Конвертация отправлена на подпись",
+            "ERROR": "Не удалось отправить конвертацию на подпись"
+        },
+        "CREATE_AND_SIGN": {
+            "SUCCESS": "Конвертация отправлена в обработку",
+            "ERROR": "Не удалось подписать или отправить конвертацию на подпись"
+        },
+        "SIGN_ONLY": {
+            "SUCCESS": "Конвертация подписана",
+            "ERROR": "Не удалось подписать конвертацию"
+        },
+        "DESCRIPTION": "Зачисление {{money}} на счет {{iban}}"
+    },
+    "CONTRACTS": {
+        "TITLE": "Валютный контроль",
+        "ADD_NEW": "Добавить контракт",
+        "ERRORED": "Не удалось загрузить контракты",
+        "RETRY": "Попробовать еще раз",
+        "EMPTY": "У вас пока нет контрактов",
+        "TABS": {
+            "OUTCOMING": "Исходящие",
+            "INCOMING": "Входящие"
+        },
+        "TYPES": {
+            "ON_SIGN": "На подпись",
+            "APPROVED": "Одобрены",
+            "PENDING": "На проверке",
+            "REJECTED": "Отклоненные"
+        },
+        "APPROVED": {
+            "CONTRACT_NUMBER": "Номер контракта",
+            "CONTRACT_NAME": "Наименование",
+            "CONTRACT_AMOUNT": "Сумма контракта",
+            "CONTRACT_REMAINDER": "Остаток по сумме",
+            "HAS_UNK": "УНК присвоен",
+            "HAS_EXPIRED": "Истек срок",
+            "AMOUNT_CLOSED": "Сумма закрыта",
+            "DOWNLOAD": "Скачать в PDF",
+            "DOWNLOADING": "Скачивается..."
+        },
+        "PENDING": {
+            "CONTRACT_STATUS": "Статус",
+            "CONTRACT_DATE": "Дата",
+            "CONTRACT_ON_CHECK": "Контракт на проверке"
+        },
+        "REJECTED": {
+            "CONTRACT_STATUS": "Статус",
+            "CONTRACT_DATE": "Дата",
+            "CONTRACT": "Контракт",
+            "DECLINE_REASON": "Причина отклонения"
+        },
+        "ADD_CONTRACT_MODAL": {
+            "HEADING": "Добавление контракта/документа",
+            "DESCRIPTION": "Размер одного файла не более 5 МБ.<br>Форматы: PDF, JPG, JPEG, DOC, PNG, TIF.",
+            "UPLOAD": "Загрузить файл",
+            "UPLOADED_HEADING": "Загруженные документы",
+            "AGREEMENT": "<strong>Продолжая, я подтверждаю,</strong><br/>- что согласен(-а) на получение учетного номера к прикрепленному валютному договору, который относится к экспорту или импорту товара и я уведомлен об <a href='http://adilet.zan.kz/rus/docs/V1200007584#z14' target='_blank' class='link-blue'>условиях получения учетного номера</a>;<br/>- что при отсутствии общей суммы контракта, осуществлять учетную регистрацию контракта с ориентировочной суммой 50 000,01 USD (для увеличения суммы необходимо будет отправить письмо в банк);<br/>- что при при успешной проверке контракта будет удержана комиссия согласно моему тарифному плану.",
+            "UPLOAD_FILE": "Загрузить файл",
+            "SIGN": "Подписать",
+            "SIGN_AND_SEND": "Подписать и отправить",
+            "SENT_FOR_SIGN": "Отправить на подпись"
+        },
+        "SUCCESS_MODAL": {
+            "TITLE": "Отправлено",
+            "SENT_FOR_PRIMARY_SIGN": "Отправлено на подпись директору",
+            "SENT_FOR_SIGN": "Отправлено на подпись уполномоченному лицу",
+            "SENT_FOR_CHECK": "Отправлено на проверку валютному контролю"
+        },
+        "ERROR_MODAL": {
+            "FORBIDDEN": "Возможность загрузки контрактов временно выключена, попробуйте еще раз позднее.",
+            "GENERAL": "Не удалось отправить файл(ы), проверьте интернет соединение и попробуйте ещё раз."
+        },
+        "DETAILS": {
+            "TITLE": "Детали",
+            "AMOUNT": "Сумма контракта",
+            "REMAINDER": "Остаток",
+            "TYPE": "Вид контракта",
+            "DATE_FROM": "Дата заключения",
+            "DATE_TO": "Дата завершения",
+            "CURRENCY": "Валюта",
+            "COUNTRY": "Страна",
+            "CITY": "Город",
+            "BIC": "БИК/SWIFT",
+            "FILES": "Файлы",
+            "DOWNLOAD": "Скачать",
+            "ADD_DOCUMENT": "Добавить документ",
+            "CREATE_PAYMENT": "Создать платеж",
+            "HAS_EXPIRED": "Истек срок действия контракта",
+            "AMOUNT_CLOSED": "Сумма контракта закрыта",
+            "INFO": "Информация",
+            "UNK": "УНК",
+            "UNK_DATE": "Дата УНК"
+        },
+        "DATE": {
+            "SENT": "Дата отправки",
+            "REJECTED": "Дата отклонения"
+        },
+        "ITEM": {
+            "TITLE": "Контракт",
+            "ATTACHMENTS_TITLE": {
+                "FEW": "({{count}} файла)",
+                "ONE": "({{count}} файл)",
+                "OTHER": "({{count}} файлов)"
+            },
+            "ITEM_TITLE": "от {{date}}",
+            "MORE": {
+                "FEW": "Показать еще {{count}} файла",
+                "ONE": "Показать еще {{count}} файл",
+                "OTHER": "Показать еще {{count}} файлов"
+            }
+        },
+        "LIST": {
+            "ALL_LOADED": "Все контракты загружены",
+            "OTHERS_FOR_SIGN": "Другим на подпись",
+            "CHECKBOX": "Выбрать все",
+            "SIGN_ALL": "Подписать все",
+            "FOR_SIGN": "На подпись",
+            "SELECTED": "Выбрано:",
+            "DELETE_SELECTED": "Удалить выбранное",
+            "SIGN_SELECTED": "Подписать выбранное",
+            "SELECT_ALL": "Выбрать все",
+            "TOTAL": "Контракты:",
+            "ITEM": {
+                "FOR_SIGN": "На подпись",
+                "DELETE": "Удалить",
+                "SIGN": "Подписать",
+                "CHECKBOX": "Выбрать"
+            },
+            "EMPTY": {
+                "ON_SIGN": "У вас пока нет <br> контрактов на подпись",
+                "APPROVED": "У вас пока нет <br> одобренных контрактов",
+                "PENDING": "У вас нет контрактов на проверке",
+                "REJECTED": "У вас нет отклоненных контрактов"
+            },
+            "MODAL": {
+                "ERRORS": "Контракты с ошибкой",
+                "SIGN": {
+                    "PARTIAL": "Подписано частично",
+                    "FAILED": {
+                        "TITLE": "Ошибка",
+                        "FEW": "<strong>{{count}} контракта</strong> не удалось подписать",
+                        "ONE": "<strong>{{count}} контракт</strong> не удалось подписать",
+                        "OTHER": "<strong>{{count}} контрактов</strong> не удалось подписать"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Подписано",
+                        "FEW": "<strong>{{count}} контракта</strong> успешно подписаны",
+                        "ONE": "<strong>{{count}} контракт</strong> успешно подписан",
+                        "OTHER": "<strong>{{count}} контрактов</strong> успешно подписаны"
+                    }
+                },
+                "DELETE": {
+                    "PARTIAL": "Удалено частично",
+                    "FAILED": {
+                        "TITLE": "Ошибка",
+                        "FEW": "<strong>{{count}} контракта</strong> не удалось удалить",
+                        "ONE": "<strong>{{count}} контракт</strong> не удалось удалить",
+                        "OTHER": "<strong>{{count}} контрактов</strong> не удалось удалить"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Удалено",
+                        "FEW": "<strong>{{count}} контракта</strong> успешно удалены ",
+                        "ONE": "<strong>{{count}} контракт</strong> успешно удален",
+                        "OTHER": "<strong>{{count}} контрактов</strong> успешно удалены"
+                    }
+                }
+            }
+        }
+    },
+    "LIST": {
+        "CHECKBOX": "Выбрать все",
+        "SIGN_ALL": "Подписать все",
+        "SELECTED": "Выбрано:",
+        "DELETE_SELECTED": "Удалить выбранное",
+        "SIGN_SELECTED": "Подписать выбранное",
+        "SELECT_ALL": "Выбрать все",
+        "TOTAL": "Всего:",
+        "ITEM": {
+            "FOR_SIGN": "На подпись",
+            "DELETE": "Удалить",
+            "SIGN": "Подписать",
+            "CHECKBOX": "Выбрать"
+        },
+        "MODAL": {
+            "ERRORS": "Ошибки",
+            "SIGN": {
+                "PARTIAL": "Подписано частично",
+                "FAILED": {
+                    "TITLE": "Ошибка",
+                    "FEW": "<strong>{{count}}</strong> не удалось подписать",
+                    "ONE": "<strong>{{count}}</strong> не удалось подписать",
+                    "OTHER": "<strong>{{count}}</strong> не удалось подписать"
+                },
+                "SUCCESS": {
+                    "TITLE": "Подписано",
+                    "FEW": "<strong>{{count}}</strong> успешно подписаны",
+                    "ONE": "<strong>{{count}}</strong> успешно подписан",
+                    "OTHER": "<strong>{{count}}</strong> успешно подписаны"
+                }
+            },
+            "DELETE": {
+                "PARTIAL": "Удалено частично",
+                "FAILED": {
+                    "TITLE": "Ошибка",
+                    "FEW": "<strong>{{count}}</strong> не удалось удалить",
+                    "ONE": "<strong>{{count}}</strong> не удалось удалить",
+                    "OTHER": "<strong>{{count}}</strong> не удалось удалить"
+                },
+                "SUCCESS": {
+                    "TITLE": "Удалено",
+                    "FEW": "<strong>{{count}}</strong> успешно удалено",
+                    "ONE": "<strong>{{count}}</strong> успешно удален",
+                    "OTHER": "<strong>{{count}}</strong> успешно удалено"
+                }
+            }
+        }
+    },
+    "EXCHANGE_RATES": {
+        "DOMESTIC_BANK": "Курс Jusan Bank",
+        "NATIONAL_BANK": "Курс Нац. Банк",
+        "PURCHASE": "Покупка",
+        "SALE": "Продажа",
+        "RATE": "Курс",
+        "ALL_CURRENCIES": "Все валюты",
+        "EXCHANGE_RATES": "Курсы валют",
+        "SELECT_CURRENCY": "Выберите валюту для отображения на главной странице",
+        "CURRENCY_ADDED": "{{currency}} добавлен в виджет",
+        "CURRENCY_DELETED": "{{currency}} скрыт с виджета",
+        "SET_ERROR": "Не удалось выполнить действие",
+        "NO_EXCHANGE_RATES": "Добавить валюту",
+        "RATES_LOADING_ERROR": "Курсы валют не загрузились. Попробуйте обновить раздел",
+        "CURRENCIES_LOADING_ERROR": "Список валют не загрузился. Попробуйте обновить раздел",
+        "CURRENCY_DESCRIPTION": {
+            "USD": "Американский доллар",
+            "EUR": "Евро",
+            "JPY": "Японская Йена",
+            "GBP": "Английский фунт стерлингов",
+            "CHF": "Швейцарский франк",
+            "AUD": "Австралийский доллар",
+            "CAD": "Канадский доллар",
+            "SEK": "Шведская крона",
+            "HKD": "Гонконгский доллар",
+            "NOK": "Норвежская крона",
+            "NZD": "Новозеландский доллар",
+            "MXN": "Мексиканский песо",
+            "SGD": "Сингапурский доллар",
+            "KPW": "Южнокорейский вон",
+            "ZAR": "Южноафриканский ранд",
+            "DKK": "Датская крона",
+            "RUB": "Российский рубль",
+            "ATS": "Австрийский шиллинг",
+            "BEF": "Бельгийский франк",
+            "CZK": "Чешская крона",
+            "NLG": "Нидерландский гульден",
+            "EEK": "Эстонская крона",
+            "FIM": "Финская марка",
+            "FRF": "Французский франк",
+            "DEM": "Немецкая марка",
+            "GRD": "Греческая драхма",
+            "HUF": "Венгерский форинт",
+            "IEP": "Ирландский фунт",
+            "ITL": "Итальянская лира",
+            "LVL": "Латвийский лат",
+            "LTL": "Литовский лит",
+            "PLN": "Польский злотый",
+            "PTE": "Португальское эскудо",
+            "SKK": "Словацкая крона",
+            "ESP": "Испанская песета",
+            "UAN": "Украинская гривна",
+            "KGS": "Киргизский сом",
+            "GEL": "Грузинский лари",
+            "CNY": "Китайский юань",
+            "TRY": "Турецкая лира",
+            "AZN": "Азербайджанский манат",
+            "AED": "Дирхам ОАЭ",
+            "THB": "Тайский бат"
+        }
+    },
+    "TOUR": {
+        "MODAL": {
+            "TITLE": "Добро пожаловать, <br/> {{ name }}!",
+            "DESCRIPTION": "Мы рады видеть Вас в Jusan Business. <br/> Позвольте Вас ознакомить с банкингом, выберите необходимую вам тему:",
+            "LIST": {
+                "HOME": "Познакомить со всем функционалом",
+                "REQUISITES": "Обновленные реквизиты",
+                "STATEMENT": "Выписка по АТФ счету",
+                "HISTORY": "Повтор старых платежей",
+                "IMPORT": "Импорт из 1С",
+                "CREATE_PAYMENT": "Создание нового платежа"
+            },
+            "DISMISS": "Ознакомлюсь самостоятельно"
+        },
+        "STEP": {
+            "PREV": "НАЗАД",
+            "NEXT": "ДАЛЕЕ",
+            "FINISH": "ОК"
+        },
+        "AUTH": {
+            "REGISTER": {
+                "TITLE": "Вы из АТФ?",
+                "TEXT": "Для первого входа пройдите регистрацию.<br>В последующие разы пользуйтесь входом через пароль."
+            }
+        },
+        "HOME": {
+            "ACCOUNTS": {
+                "TITLE": "Краткий обзор банкинга",
+                "TEXT": "На главной странице отображены все ваши счета с обновлёнными реквизитами Jusan Bank. Нажмите на счёт, чтобы посмотреть выписку и реквизиты."
+            },
+            "CREATE_PAYMENT": {
+                "TITLE": "Создание платежей",
+                "TEXT": "Создавайте платежи в тенге, валюте, конвертации или переводы между своими счетами, нажав кнопку 'Создать'"
+            },
+            "IMPORT_PAYMENT": {
+                "TITLE": "Импорт из 1С",
+                "TEXT": "Импортируйте файлы из 1С через кнопку “Импорт”"
+            },
+            "COMPANY_CHANGE": {
+                "TITLE": "Смена компании",
+                "TEXT": "Если у вас более одной компании, вы можете переключать их."
+            },
+            "HISTORY": {
+                "TITLE": "История операций",
+                "TEXT": "В истории доступны платежи <br>в статусах “На подпись”, <br>“В обработке”, “Исполнен”, “Отклонен”, <br>а также “Черновик”"
+            },
+            "CONTRACTS": {
+                "TITLE": "Работа с контрактами",
+                "TEXT": "Здесь находится управление Валютными Контрактами."
+            },
+            "DICTIONARIES": {
+                "TITLE": "Контрагенты и сотрудники",
+                "TEXT": "Список Ваших контрагентов и сотрудников компании доступны в “Справочнике” для быстрого <br>и удобного управления"
+            },
+            "SETTINGS": {
+                "TITLE": "Настройки",
+                "TEXT": "Основные данные по компании, уполномоченные лица и смена пароля доступна в данном разделе"
+            },
+            "LOGOUT": {
+                "TITLE": "Выход из системы",
+                "TEXT": ""
+            }
+        },
+        "REQUISITES_HOME": {
+            "ACCOUNT": {
+                "TITLE": "Счета из АТФ",
+                "TEXT": "Нажмите на счёт, чтобы посмотреть выписку и реквизиты"
+            }
+        },
+        "REQUISITES_ACCOUNT": {
+            "NAV": {
+                "TITLE": "Реквизиты счёта",
+                "TEXT": "Здесь вы найдёте старые и новые реквизиты"
+            }
+        },
+        "STATEMENTS_HOME": {
+            "ACCOUNT": {
+                "TITLE": "Счета из АТФ",
+                "TEXT": "Нажмите на счёт, чтобы посмотреть выписку и реквизиты"
+            }
+        },
+        "STATEMENTS_ACCOUNT": {
+            "FILTER": {
+                "TITLE": "Выберите дату",
+                "TEXT": "По умолчанию в выписке отображаются операции за Сегодня. Выберите даты и ваша выписка отобразится списком внизу"
+            },
+            "TRANSACTIONS": {
+                "TITLE": "Выписка",
+                "TEXT": "Здесь вы увидите транзакции по счёту за выбранный период"
+            }
+        },
+        "HISTORY_HOME": {
+            "NAV": {
+                "TITLE": "Все платежи",
+                "TEXT": "Здесь доступны все старые платежи из АТФ, новые платежи на подпись, черновики и возвраты."
+            }
+        },
+        "HISTORY_LIST": {
+            "REPEAT": {
+                "TITLE": "Повтор",
+                "TEXT": "Нажмите на иконку повтора, чтобы создать новый подобный платёж"
+            }
+        }
+    },
+    "COUNTRIES": {
+      "CODE": "Код страны",
+      "SEARCH": "Страна",
+      "Afghanistan": "Афганистан",
+      "Albania": "Албания",
+      "Algeria": "Алжир",
+      "American Samoa": "Американское Самоа",
+      "Andorra": "Андорра",
+      "Angola": "Ангола",
+      "Anguilla": "Ангилья",
+      "Antigua and Barbuda": "Антигуа и Барбуда",
+      "Armenia": "Армения",
+      "Argentina": "Аргентина",
+      "Australia": "Австралия",
+      "Austria": "Австрия",
+      "Azerbaijan": "Азербайджан",
+      "Bahamas": "Багамы",
+      "Bahrain": "Бахрейн",
+      "Bangladesh": "Бангладеш",
+      "Barbados": "Барбадос",
+      "Belarus": "Белоруссия",
+      "Belgium": "Бельгия",
+      "Belize": "Белиз",
+      "Benin": "Бенин",
+      "Bermuda": "Бермудские острова",
+      "Bolivia": "Боливия",
+      "Bosnia and Herzegovina": "Босния и Герцеговина",
+      "Botswana": "Ботсвана",
+      "Brazil": "Бразилия",
+      "British Virgin Islands": "Виргинские Острова (Великобритания)",
+      "Brunei Darusalaam": "Бруней Даруэсалаам",
+      "Bulgaria": "Болгария",
+      "Burkina Faso": "Буркина Фасо",
+      "Burundi": "Бурунди",
+      "Byelorussian": "Россия",
+      "Cambodia": "Камбоджа",
+      "Cameroon": "Камерун",
+      "Canada": "Канада",
+      "Cape Verde": "Капе верде",
+      "Cayman Islands": "Каймановы острова",
+      "Central African Republic": "Центрально африканская республика",
+      "Chad": "Чад",
+      "Chile": "Чили",
+      "China": "Китай",
+      "Christmas Island": "Рождественсткие острова",
+      "Cocos Islands": "Кокосовые острова",
+      "Colombia": "Колумбия",
+      "Commonwealth of the Northern Mariana Islands": "Содружество северных Марианских островов",
+      "Comoros and Mayotte Island": "Коморские и майотские(?) острова",
+      "Congo": "Конго",
+      "Cook Islands": "Острова Кука",
+      "Costa Rica": "Коста-Рика",
+      "Croatia": "Хорватия",
+      "Cuba": "Куба",
+      "Cyprus": "Кипр",
+      "Czech Republic": "Чешская республика",
+      "Denmark": "Дания",
+      "Diego Garcia": "Диего-Гарсия",
+      "Djibouti": "Джибути",
+      "Dominica": "Доминика",
+      "Dominican Republic": "Доминиканская республика",
+      "East Timor": "Восточный Тимор",
+      "Ecuador": "Эквадор",
+      "Egypt": "Египет",
+      "El Salvador": "Сальвадор",
+      "Equatorial Guinea": "Экваториальная Гвинея",
+      "Estonia": "Эстония",
+      "Ethiopia": "Эфиопия",
+      "Faeroe Islands": "Фарерские острова",
+      "Falkland Islands": "Фолклендские острова",
+      "Fiji": "Фиджи",
+      "Finland": "Финляндия",
+      "France": "Франция",
+      "French Antilles": "Французские Антиллы",
+      "French Guiana": "Французская Гвиана",
+      "French Polynesia": "Франзузская полинезия",
+      "Gabon": "Габон",
+      "Gambia": "Гамбия",
+      "Georgia": "Грузия",
+      "Germany": "Германия",
+      "Ghana": "Гана",
+      "Gibraltar": "Гибралтар",
+      "Greece": "Греция",
+      "Greenland": "Гренландия",
+      "Grenada": "Гренада",
+      "Guam": "Гуам",
+      "Guatemala": "Гватемала",
+      "Guinea": "Гвинея",
+      "Guinea-Bissau": "Гвинея Биссау",
+      "Guyana": "Гайана",
+      "Haiti": "Гаити",
+      "Honduras": "Гондурас",
+      "Hong Kong": "Гон-Конг",
+      "Hungary": "Венгрия",
+      "Iceland": "исландия",
+      "India": "Индия",
+      "Indonesia": "Индонезия",
+      "Iran": "Иран",
+      "Iraq": "Ирак",
+      "Irish Republic": "Ирландская республика",
+      "Israel": "Израиль",
+      "Italy": "Италия",
+      "Ivory Coast": "Берег слоновой кости",
+      "Jamaica": "Джамайка",
+      "Japan": "Япония",
+      "Jordan": "Иордания",
+      "Kazakhstan": "Казахстан",
+      "Kenya": "Кения",
+      "Kiribati Republic": "Кирибати",
+      "Kirg(h)izia": "Кыргызстан",
+      "Kuwait": "Кувейт",
+      "Laos": "Лаос",
+      "Latvia": "Латвия",
+      "Lebanon": "Ливан",
+      "Lesotho": "Лессото",
+      "Liberia": "Либерия",
+      "Libya": "Ливия",
+      "Liechtenstein": "Лихтенштейн",
+      "Lithuania": "Литва",
+      "Luxembourg": "Люксембург",
+      "Macao": "Макао",
+      "Macedonia": "Македония",
+      "Madagascar": "Мадагаскар",
+      "Malawi": "Малави",
+      "Malaysia": "Малайзия",
+      "Maldives": "Мальдивы",
+      "Mali": "Мали",
+      "Malta": "Мальта",
+      "Marshall Islands": "Маршалловы острова",
+      "Martinique": "Мартиника",
+      "Mauritania": "Мавритания",
+      "Mauritius": "Маврикий",
+      "Mexico": "Мексика",
+      "Micronesia": "Микронезия",
+      "Monaco": "Монако",
+      "Mongolia": "Монголия",
+      "Montserrat": "Монтсеррат",
+      "Morocco": "Мороко",
+      "Mozambique": "Мозамбик",
+      "Myanmar": "Мьянма",
+      "Namibia": "Намибия",
+      "Nauru": "Науру",
+      "Nepal": "Непал",
+      "Netherlands": "Нидерланды",
+      "Netherlands Antilles": "Нидерландские антиллы",
+      "New Caledonia": "Новая каледония",
+      "New Zealand": "Новая зеландия",
+      "Nicaragua": "Никарагуа",
+      "Niger": "Нигер",
+      "Nigeria": "Нигерия",
+      "Niue": "Ниуэ",
+      "Norfolk Island": "Норфолкские острова",
+      "North Korea": "Северная Корея",
+      "North Yemen": "Северный Йемен",
+      "Northern Mariana Islands": "Северно Марианские острова",
+      "Norway": "Норвегия",
+      "Oman": "Оман",
+      "Pakistan": "Пакистан",
+      "Panama": "Панама",
+      "Papua New Guinea": "Папуа Новая Гвинея",
+      "Paraguay": "Парагвай",
+      "Peru": "Перу",
+      "Philippines": "Филипины",
+      "Poland": "Польша",
+      "Portugal": "Португалия",
+      "Puerto Rico": "Пуэрто Рико",
+      "Qatar": "Катар",
+      "Republic of San Marino": "Республика Сан Марино",
+      "Reunion": "Реоньон",
+      "Romania": "Румыния",
+      "Russia": "Россия",
+      "Rwandese Republic": "Республика Руанда",
+      "Saint Helena and Ascension Island": "Острова Святой Елены и Вознесения",
+      "Saint Pierre et Miquelon": "Сен-Пьер и Микелон",
+      "San Marino": "Сан Марино",
+      "Sao Tome e Principe": "Сан-Томе и Принсипи",
+      "Saudi Arabia": "Саудовская Аравия",
+      "Senegal": "Сенегал",
+      "Seychelles": "Сейшельские Острова",
+      "Sierra Leone": "Сьерра Леоне",
+      "Singapore": "Сингапур",
+      "Slovakia": "Словакия",
+      "Slovenia": "Словения",
+      "Solomon Islands": "Соломоновы острова",
+      "Somalia": "Сомали",
+      "South Africa": "ЮАР",
+      "South Korea": "Южная Корея",
+      "South Yemen": "Южный Йемен",
+      "Spain": "Испания",
+      "Sri Lanka": "Шри Ланка",
+      "St.Kitts and Nevis": "Сент-Китс и Невис",
+      "St.Lucia": "Сент-Люсия",
+      "St.Vincent and the Grenadines": "Сент-Винсент и Гренадины",
+      "Sudan": "Судан",
+      "Suriname": "Суринам",
+      "Svalbard and Jan Mayen Islands": "Шпицберген и Ян-Майен",
+      "Swaziland": "Свазиленд",
+      "Sweden": "Швеция",
+      "Switzerland": "Швейцария",
+      "Syria": "Сирия",
+      "Ta(d)jikistan": "Таджикистан",
+      "Taiwan": "Тайвань",
+      "Tanzania": "Танзания",
+      "Thailand": "Тайланд",
+      "Togolese Republic": "Республика Тоголезе",
+      "Tokelau": "Токелау",
+      "Tonga": "Тонго",
+      "Trinidad and Tobago": "Тринидад и Тобаго",
+      "Tunisia": "Тунис",
+      "Turkey": "Турция",
+      "Turkmenistan": "Туркменистан",
+      "Turks & Caicos Islands": "Теркс и Кайкос",
+      "Tuvalu": "Тувалу",
+      "US Virgin Islands": "Виргинские Острова (США)",
+      "Uganda": "Уганда",
+      "Ukraine": "Украина",
+      "United Arab Emirates": "О.А.Э.",
+      "United Kingdom": "Великобритания",
+      "Uruguay": "Уругвай",
+      "USA": "США",
+      "Uzbekistan": "Узбекистан",
+      "Vanuatu": "Вануату",
+      "Vatican City": "Ватикан",
+      "Venezuela": "Венесуэла",
+      "Vietnam": "Вьетнам",
+      "Wallis and Futuna Islands": "Уоллис и Футуна",
+      "Western Sahara": "Западная Сахара",
+      "Western Samoa": "Западное Самоа",
+      "Yugoslavia": "Югославия",
+      "Zaire": "Заир",
+      "Zambia": "Замбия",
+      "Zimbabwe": "Зимбабве"
+    },
+  "JMART": {
+    "HOME": {
+      "TITLE": "Главная"
+    },
+    "ORDERS": {
+      "TITLE": "Заказы"
+    },
+    "GOODS": {
+      "TITLE": "Товары"
+    },
+    "DISCOUNT": {
+      "TITLE": "Акции"
+    },
+    "RATINGS": {
+      "TITLE": "Рейтинг"
+    },
+    "REPORTS": {
+      "TITLE": "Отчеты и аналитика"
+    },
+    "SETTINGS": {
+      "TITLE": "Настройки"
+    },
+    "INSTRUCTIONS": {
+      "TITLE": "Инструкции"
+    }
+
+
+  }
+}
