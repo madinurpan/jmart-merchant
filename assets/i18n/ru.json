@@ -1902,32 +1902,37 @@
       "Zambia": "Замбия",
       "Zimbabwe": "Зимбабве"
     },
-  "JMART": {
-    "HOME": {
-      "TITLE": "Главная"
-    },
-    "ORDERS": {
-      "TITLE": "Заказы"
-    },
-    "GOODS": {
-      "TITLE": "Товары"
-    },
-    "DISCOUNT": {
-      "TITLE": "Акции"
-    },
-    "RATINGS": {
-      "TITLE": "Рейтинг"
-    },
-    "REPORTS": {
-      "TITLE": "Отчеты и аналитика"
-    },
-    "SETTINGS": {
-      "TITLE": "Настройки"
-    },
-    "INSTRUCTIONS": {
-      "TITLE": "Инструкции"
+    "JMART": {
+      "HOME": {
+        "TITLE": "Главная"
+      },
+      "ORDERS": {
+        "TITLE": "Заказы"
+      },
+      "GOODS": {
+        "TITLE": "Товары"
+      },
+      "DISCOUNT": {
+        "TITLE": "Акции"
+      },
+      "RATINGS": {
+        "TITLE": "Рейтинг"
+      },
+      "REPORTS": {
+        "TITLE": "Отчеты и аналитика"
+      },
+      "SETTINGS": {
+        "TITLE": "Настройки",
+        "INFORMATION": {
+          "TITLE": "Информация"
+        },
+        "PICKUPPOINTS": {"TITLE": "ПВЗ"},
+        "DELIVERY": {"TITLE": "Доставка"},
+        "SCHEDULE": {"TITLE": "Расписание"},
+        "USERS": {"TITLE": "Пользователи"}
+      },
+      "INSTRUCTIONS": {
+        "TITLE": "Инструкции"
+      }
     }
-
-
-  }
 }

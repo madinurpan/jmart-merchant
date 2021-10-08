@@ -309,5 +309,38 @@
             "SIGN_FAILED": "Failed to sign payment",
             "SIGN_SUCCESS": "Payment successfully signed"
         }
+    },
+    "JMART": {
+        "HOME": {
+            "TITLE": "Main"
+        },
+        "ORDERS": {
+            "TITLE": "Orders"
+        },
+        "GOODS": {
+            "TITLE": "Goods"
+        },
+        "DISCOUNT": {
+            "TITLE": "Discount"
+        },
+        "RATINGS": {
+            "TITLE": "Ratings"
+        },
+        "REPORTS": {
+            "TITLE": "Reports"
+        },
+        "SETTINGS": {
+            "TITLE": "Settings",
+          "INFORMATION": {
+            "TITLE": "Information"
+          },
+          "PICKUPPOINTS": {"TITLE": "Pickup points"},
+          "DELIVERY": {"TITLE": "Delivery"},
+          "SCHEDULE": {"TITLE": "Schedule"},
+          "USERS": {"TITLE": "Users"}
+        },
+        "INSTRUCTIONS": {
+            "TITLE": "Instructions"
+        }
     }
 }
