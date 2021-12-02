@@ -354,34 +354,5 @@
             "FAILED_TEXT": "Что-то пошло не так...",
             "REPEAT": "Повторить"
           }
-        },
-        "ORDERS": {
-            "TITLE": "Orders"
-        },
-        "GOODS": {
-            "TITLE": "Goods"
-        },
-        "DISCOUNT": {
-            "TITLE": "Discount"
-        },
-        "RATINGS": {
-            "TITLE": "Ratings"
-        },
-        "REPORTS": {
-            "TITLE": "Reports"
-        },
-        "SETTINGS": {
-            "TITLE": "Settings",
-          "INFORMATION": {
-            "TITLE": "Information"
-          },
-          "PICKUPPOINTS": {"TITLE": "Pickup points"},
-          "DELIVERY": {"TITLE": "Delivery"},
-          "SCHEDULE": {"TITLE": "Schedule"},
-          "USERS": {"TITLE": "Users"}
-        },
-        "INSTRUCTIONS": {
-            "TITLE": "Instructions"
         }
-    }
 }

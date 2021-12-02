@@ -354,34 +354,5 @@
             "FAILED_TEXT": "Что-то пошло не так...",
             "REPEAT": "Повторить"
           }
-        },
-        "ORDERS": {
-            "TITLE": "Тапсырыстар"
-        },
-        "GOODS": {
-            "TITLE": "Тауарлар"
-        },
-        "DISCOUNT": {
-            "TITLE": "Акциялар"
-        },
-        "RATINGS": {
-            "TITLE": "Рейтинг"
-        },
-        "REPORTS": {
-            "TITLE": "Есептеме"
-        },
-        "SETTINGS": {
-            "TITLE": "Баптаулар",
-            "INFORMATION": {
-              "TITLE": "Информация"
-            },
-            "PICKUPPOINTS": {"TITLE": "Қабылдау нүктелері"},
-            "DELIVERY": {"TITLE": "Жеткізу"},
-            "SCHEDULE": {"TITLE": "Кесте"},
-            "USERS": {"TITLE": "Пайдаланушылар"}
-        },
-        "INSTRUCTIONS": {
-            "TITLE": "Нұсқаулар"
         }
-    }
 }
