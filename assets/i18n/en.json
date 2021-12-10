@@ -448,6 +448,8 @@
             "ONE": "{{fileNames}} file isn't loaded. It has already been imported previously.",
             "OTHER": "{{fileNames}} file aren't loaded. It has already been imported previously."
         },
+      "RESTRICTED_FILES":  "You're trying to load restricted file",
+      "TOO_BIG_FILE":  "File size is too big (5mb allowed)",
         "ERRORS": {
             "IDN_EMPTY": "\"IIN/BIN\" field is empty or missing",
             "IDN_INVALID_FORMAT": "\"IIN/BIN\" field is incorrect",
